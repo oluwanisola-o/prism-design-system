@@ -1,0 +1,138 @@
+/* ===================================
+   PRISM ALERT DIALOG COMPONENT STYLES
+   =================================== */
+
+/* Import the main design tokens */
+@import '../../tokens/csstokens.css';
+
+/* Base Alert Dialog Styles */
+prism-alert-dialog {
+  display: inline-block;
+  position: relative;
+}
+
+/* Dialog panel - now inline instead of popup */
+.alert-dialog-panel {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  min-width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: block;
+}
+
+/* Dialog header */
+.alert-dialog-header {
+  padding: 24px 24px 0 24px;
+}
+
+.alert-dialog-title {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.alert-dialog-separator {
+  height: 1px;
+  background-color: #e5e5e5;
+  margin-bottom: 16px;
+}
+
+/* Dialog content */
+.alert-dialog-content {
+  padding: 0 24px;
+}
+
+.alert-dialog-message {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+/* Dialog footer */
+.alert-dialog-footer {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  padding: 20px 24px 24px 24px;
+}
+
+/* Button styling */
+.alert-dialog-button {
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 16px;
+  min-width: 80px;
+  transition: all 0.2s ease;
+  border: 1px solid;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Primary button (like "Enable", "Continue") */
+.alert-dialog-button-primary {
+  background-color: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+.alert-dialog-button-primary:hover {
+  background-color: #0052a3;
+  border-color: #0052a3;
+}
+
+/* Secondary button (like "Cancel") */
+.alert-dialog-button-secondary {
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+  border-color: #d0d0d0;
+}
+
+.alert-dialog-button-secondary:hover {
+  background-color: #e8e8e8;
+  border-color: #b8b8b8;
+}
+
+/* Destructive button (like "Continue" in warning) */
+.alert-dialog-button-destructive {
+  background-color: #1a1a1a;
+  color: white;
+  border-color: #1a1a1a;
+}
+
+.alert-dialog-button-destructive:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+/* ===================================
+   ANIMATIONS
+   =================================== */
+
+@keyframes dialogSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.alert-dialog-panel {
+  animation: dialogSlideIn 0.2s ease-out;
+}
+
+/* Focus management */
+.alert-dialog-button:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}

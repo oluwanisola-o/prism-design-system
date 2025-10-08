@@ -1,0 +1,43 @@
+/* Volt Dark Theme Colors */
+:root {
+  /* Greys */
+  --volt-dark-greys-overlay: #0d0e12;
+  --volt-dark-greys-text-primary: #f0f1f3;
+  --volt-dark-greys-text-secondary: #b8babe;
+  --volt-dark-greys-text-on-brand-light: #ffffff;
+  --volt-dark-greys-text-placeholder: #71757d;
+  --volt-dark-greys-border-strong: #4e535d;
+  --volt-dark-greys-border-subtle: #2a303c;
+  --volt-dark-greys-surface-background-subtle: #232832;
+  --volt-dark-greys-text-on-brand-dark: #2a303c;
+  --volt-dark-greys-text-disabled-icon-disabled: #4e535d;
+  --volt-dark-greys-surface-background-default: #000000;
+  --volt-dark-greys-base: #000000;
+
+  /* Surface */
+  --volt-dark-surface-background-default: #0d0e12;
+  --volt-dark-surface-modal: #111318;
+  --volt-dark-surface-primary-hover: #2b62ed;
+  --volt-dark-surface-primary-pressed: #224ebe;
+  --volt-dark-surface-secondary-hover: #1f0d00;
+  --volt-dark-surface-secondary-pressed: #351b07;
+  --volt-dark-surface-background-subtle: #222630;
+  --volt-dark-surface-accent-default: #4b280f;
+  --volt-dark-surface-input-default: #191d24;
+  --volt-dark-surface-input-disabled: #2a303c;
+  --volt-dark-surface-input-hover: #111318;
+
+  /* Icons */
+  --volt-dark-icons-icon-nav-active: #fd964a;
+  --volt-dark-icons-icon-nav-inactive: #7f838a;
+  --volt-dark-icons-icon-spot: #ffffff;
+  --volt-dark-icons-handle: #2a303c;
+  --volt-dark-icons-icon-primary: #2b62ed;
+  --volt-dark-icons-icon-secondary: #d17b3b;
+  --volt-dark-icons-icon-subtle: #d17b3b;
+  --volt-dark-icons-icon-on-brand: #ffffff;
+  --volt-dark-icons-icon-success: #3fac64;
+  --volt-dark-icons-icon-error: #dd514d;
+  --volt-dark-icons-icon-warning: #f5b546;
+  --volt-dark-icons-icon-grey: #2a303c;
+}

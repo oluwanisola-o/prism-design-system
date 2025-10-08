@@ -1,0 +1,61 @@
+/* Volt Light Theme Typography */
+:root {
+  /* Font Families */
+  --volt-light-font-body: "Geist";
+  --volt-light-font-heading: "Switzer";
+  --volt-light-font-display: "Switzer";
+
+  /* Font Sizes */
+  --volt-light-font-size-heading-2: 1.556rem;
+  --volt-light-font-size-heading-1: 2rem;
+  --volt-light-font-size-display-small: 2.667rem;
+  --volt-light-font-size-display-large: 3.111rem;
+  --volt-light-font-size-heading-3: 1.333rem;
+  --volt-light-font-size-caption-small: 0.556rem;
+  --volt-light-font-size-caption-medium: 0.667rem;
+  --volt-light-font-size-body-small: 0.778rem;
+  --volt-light-font-size-body-medium: 0.889rem;
+  --volt-light-font-size-heading-4: 1.111rem;
+
+  /* Line Heights */
+  --volt-light-line-height-display-large: 3.556rem;
+  --volt-light-line-height-caption-small: 0.778rem;
+  --volt-light-line-height-caption-medium: 0.889rem;
+  --volt-light-line-height-body-medium: 1.333rem;
+  --volt-light-line-height-heading-8: 1.667rem;
+  --volt-light-line-height-heading-6: 2rem;
+  --volt-light-line-height-display-small: 3.111rem;
+  --volt-light-line-height-heading-7: 1.778rem;
+  --volt-light-line-height-body-small: 1.111rem;
+  --volt-light-line-height-heading-5: 2.333rem;
+
+  /* Font Weights */
+  --volt-light-font-weight-semibold: 600;
+  --volt-light-font-weight-light: 300;
+  --volt-light-font-weight-bold: 700;
+  --volt-light-font-weight-medium: 500;
+  --volt-light-font-weight-regular: 400;
+
+  /* Display Font Sizes */
+  --volt-light-display-large: 3.111rem;
+  --volt-light-display-small: 2.667rem;
+
+  /* Heading Font Sizes */
+  --volt-light-heading-1: 2rem;
+  --volt-light-heading-2: 1.556rem;
+  --volt-light-heading-3: 1.333rem;
+  --volt-light-heading-4: 1.111rem;
+
+  /* Paragraph Font Sizes */
+  --volt-light-paragraph-medium: 0.889rem;
+  --volt-light-paragraph-large: 1rem;
+  --volt-light-paragraph-small: 0.778rem;
+  --volt-light-paragraph-xsmall: 0.667rem;
+
+  /* Label/UI Font Sizes */
+  --volt-light-label-small: 0.778rem;
+  --volt-light-label-xsmall: 0.667rem;
+  --volt-light-label-caption: 0.556rem;
+  --volt-light-label-large: 1rem;
+  --volt-light-label-medium: 0.889rem;
+}

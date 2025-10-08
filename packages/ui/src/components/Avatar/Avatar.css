@@ -1,0 +1,240 @@
+/* ===================================
+   PRISM AVATAR COMPONENT STYLES
+   =================================== */
+
+/* Import the main design tokens */
+@import '../../tokens/csstokens.css';
+
+/* Base Avatar Styles */
+prism-avatar {
+  display: inline-block;
+  position: relative;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--quest-light-corner-radius-full);
+  overflow: hidden;
+  position: relative;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  background-color: var(--quest-dark-bg-secondary);
+  color: var(--quest-dark-text-primary);
+  margin-top: 3rem;
+  border: 2px solid var(--quest-light-border-subtle);
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  /* Debug: Add a subtle border to see the image */
+ 
+}
+
+.avatar-fallback {
+  background-color: var(--quest-light-bg-secondary);
+  color: var(--quest-light-text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ===================================
+   SIZE VARIATIONS
+   =================================== */
+
+.avatar-container[data-size="xs"] {
+  width: 24px ;
+  height: 24px;
+  font-size: var(--quest-light-font-size-caption-small);
+}
+
+.avatar-container[data-size="s"] {
+  width: 32px;
+  height: 32px;
+  font-size: var(--quest-light-font-size-body-small);
+}
+
+.avatar-container[data-size="m"] {
+  width: 40px;
+  height: 40px;
+  font-size: var(--quest-light-font-size-body-medium);
+}
+
+.avatar-container[data-size="l"] {
+  width: 48px;
+  height: 48px;
+  font-size: var(--quest-light-font-size-body-medium);
+}
+
+.avatar-container[data-size="xl"] {
+  width: 64px;
+  height: 64px;
+  font-size: var(--quest-light-font-size-heading-4);
+}
+
+.avatar-container[data-size="xxl"] {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+}
+
+
+
+/* ===================================
+   INTERACTIVE STATES
+   =================================== */
+
+.avatar-container[data-clickable] {
+  cursor: pointer;
+}
+
+.avatar-container[data-clickable]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.avatar-container[data-clickable]:active {
+  transform: scale(0.95);
+}
+
+/* ===================================
+   LOADING STATE
+   =================================== */
+
+.avatar-container[data-loading] {
+  background: linear-gradient(90deg, 
+    var(--quest-light-bg-secondary) 25%, 
+    var(--quest-light-bg-tertiary) 50%, 
+    var(--quest-light-bg-secondary) 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ===================================
+   QUEST BRAND STYLES
+   =================================== */
+
+/* Quest Light Theme */
+.theme-quest-light .avatar-container {
+  border: 2px solid var(--quest-light-border-subtle);
+  background-color: var(--quest-light-bg-secondary);
+  color: var(--quest-light-text-primary);
+  font-family: var(--quest-light-font-body);
+}
+
+.theme-quest-light .avatar-fallback {
+  background-color: var(--quest-light-bg-secondary);
+  color: var(--quest-light-text-primary);
+  font-family: var(--quest-light-font-body);
+}
+
+/* Quest Dark Theme */
+.theme-quest-dark .avatar-container {
+  border: 2px solid var(--quest-dark-border-subtle);
+  background-color: var(--quest-dark-bg-secondary);
+  color: var(--quest-dark-text-primary);
+  font-family: var(--quest-dark-font-body);
+}
+
+.theme-quest-dark .avatar-fallback {
+  background-color: var(--quest-dark-bg-secondary);
+  color: var(--quest-dark-text-primary);
+  font-family: var(--quest-dark-font-body);
+}
+
+/* ===================================
+   VOLT BRAND STYLES
+   =================================== */
+
+/* Volt Light Theme */
+.theme-volt-light .avatar-container {
+  border: 2px solid var(--volt-light-border-subtle);
+  background-color: var(--volt-light-bg-secondary);
+  color: var(--volt-light-text-primary);
+  font-family: var(--volt-light-font-body);
+}
+
+.theme-volt-light .avatar-fallback {
+  background-color: var(--volt-light-bg-secondary);
+  color: var(--volt-light-text-primary);
+  font-family: var(--volt-light-font-body);
+  font-weight: var(--volt-light-font-weight-bold);
+}
+
+/* Volt Dark Theme */
+.theme-volt-dark .avatar-container {
+  border: 2px solid var(--volt-dark-border-subtle);
+  background-color: var(--volt-dark-bg-secondary);
+  color: var(--volt-dark-text-primary);
+  font-family: var(--volt-dark-font-body);
+}
+
+.theme-volt-dark .avatar-fallback {
+  background-color: var(--volt-dark-bg-secondary);
+  color: var(--volt-dark-text-primary);
+  font-family: var(--volt-dark-font-body);
+  font-weight: var(--volt-dark-font-weight-semibold);
+}
+
+/* ===================================
+   HOVER EFFECTS
+   =================================== */
+
+.avatar-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===================================
+   FOCUS STATES
+   =================================== */
+
+.avatar-container:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* ===================================
+   AVATAR GROUP STYLES
+   =================================== */
+
+.avatar-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.avatar-group prism-avatar {
+  margin-left: -8px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease;
+}
+
+.avatar-group prism-avatar:first-child {
+  margin-left: 0;
+}
+
+.avatar-group prism-avatar:hover {
+  transform: translateY(-2px);
+  z-index: 10;
+}
+

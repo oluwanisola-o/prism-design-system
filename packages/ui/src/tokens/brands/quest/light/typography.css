@@ -1,0 +1,61 @@
+/* Quest Light Theme Typography */
+:root {
+  /* Font Families */
+  --quest-light-font-body: "Geist";
+  --quest-light-font-heading: "Bricolage Grotesque";
+  --quest-light-font-display: "Bricolage Grotesque";
+
+  /* Font Sizes */
+  --quest-light-font-size-heading-2: 1.556rem;
+  --quest-light-font-size-heading-1: 2rem;
+  --quest-light-font-size-display-small: 2.667rem;
+  --quest-light-font-size-display-large: 3.111rem;
+  --quest-light-font-size-heading-3: 1.333rem;
+  --quest-light-font-size-caption-small: 0.556rem;
+  --quest-light-font-size-caption-medium: 0.667rem;
+  --quest-light-font-size-body-small: 0.778rem;
+  --quest-light-font-size-body-medium: 0.889rem;
+  --quest-light-font-size-heading-4: 1.111rem;
+
+  /* Line Heights */
+  --quest-light-line-height-display-large: 3.556rem;
+  --quest-light-line-height-caption-small: 0.778rem;
+  --quest-light-line-height-caption-medium: 0.889rem;
+  --quest-light-line-height-body-medium: 1.333rem;
+  --quest-light-line-height-heading-8: 1.667rem;
+  --quest-light-line-height-heading-6: 2rem;
+  --quest-light-line-height-display-small: 3.111rem;
+  --quest-light-line-height-heading-7: 1.778rem;
+  --quest-light-line-height-body-small: 1.111rem;
+  --quest-light-line-height-heading-5: 2.333rem;
+
+  /* Font Weights */
+  --quest-light-font-weight-semibold: 600;
+  --quest-light-font-weight-light: 300;
+  --quest-light-font-weight-bold: 700;
+  --quest-light-font-weight-medium: 500;
+  --quest-light-font-weight-regular: 400;
+
+  /* Display Font Sizes */
+  --quest-light-display-large: 3.111rem;
+  --quest-light-display-small: 2.667rem;
+
+  /* Heading Font Sizes */
+  --quest-light-heading-1: 2rem;
+  --quest-light-heading-2: 1.556rem;
+  --quest-light-heading-3: 1.333rem;
+  --quest-light-heading-4: 1.111rem;
+
+  /* Paragraph Font Sizes */
+  --quest-light-paragraph-medium: 0.889rem;
+  --quest-light-paragraph-large: 1rem;
+  --quest-light-paragraph-small: 0.778rem;
+  --quest-light-paragraph-xsmall: 0.667rem;
+
+  /* Label/UI Font Sizes */
+  --quest-light-label-small: 0.778rem;
+  --quest-light-label-xsmall: 0.667rem;
+  --quest-light-label-caption: 0.556rem;
+  --quest-light-label-large: 1rem;
+  --quest-light-label-medium: 0.889rem;
+}

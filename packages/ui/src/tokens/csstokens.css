@@ -1,0 +1,990 @@
+/* ===================================
+   PRISM DESIGN SYSTEM - CSS TOKENS
+   ===================================
+   
+   This file contains all design tokens converted to CSS custom properties.
+   Organized by: Base → Brands → Feedback
+   
+   Usage: Import this file and use the CSS custom properties in your styles.
+   Example: color: var(--quest-light-text-primary);
+*/
+
+/* ===================================
+   BASE TOKENS
+   =================================== */
+
+/* Base Colors */
+:root {
+  /* Base Colors */
+  --base-white: #ffffff;
+  --base-black: #000000;
+
+  /* Base Corner Radius */
+  --corner-radius-xxxlarge: 55.5rem;
+  --corner-radius-medium: 0.667rem;
+  --corner-radius-large: 0.889rem;
+  --corner-radius-small: 0.444rem;
+  --corner-radius-xlarge: 1.111rem;
+  --corner-radius-xxlarge: 1.333rem;
+  --corner-radius-xsmall: 0.222rem;
+  --corner-radius-xxlarge-2: 1.778rem;
+  --corner-radius-xxlarge-3: 2.222rem;
+  --corner-radius-xxlarge-4: 2.667rem;
+  --corner-radius-xxlarge-5: 3.111rem;
+}
+
+/* ===================================
+   QUEST BRAND - LIGHT THEME
+   =================================== */
+
+:root {
+  /* Quest Light - Greys */
+  --quest-light-greys-overlay: #2a303c;
+  --quest-light-greys-text-primary: #f0f1f3;
+  --quest-light-greys-text-secondary: #b8babe;
+  --quest-light-greys-text-on-brand-light: #ffffff;
+  --quest-light-greys-text-placeholder: #71757d;
+  --quest-light-greys-border-strong: #4e535d;
+  --quest-light-greys-border-subtle: #2a303c;
+  --quest-light-greys-surface-background-subtle: #232832;
+  --quest-light-greys-text-on-brand-dark: #2a303c;
+  --quest-light-greys-text-disabled-icon-disabled: #4e535d;
+  --quest-light-greys-surface-background-default: #ffffff;
+  --quest-light-greys-base: #ffffff;
+
+  /* Quest Light - Surface */
+  --quest-light-surface-background-default: #ffffff;
+  --quest-light-surface-modal: #d4d6d8;
+  --quest-light-surface-primary-hover: #efedfd;
+  --quest-light-surface-primary-pressed: #dedbfc;
+  --quest-light-surface-secondary-hover: #fef8ec;
+  --quest-light-surface-secondary-pressed: #fdf1d9;
+  --quest-light-surface-background-subtle: #f5f5f5;
+  --quest-light-surface-accent-default: #fdf1d9;
+  --quest-light-surface-input-default: #2a303c;
+  --quest-light-surface-input-disabled: #2a303c;
+  --quest-light-surface-input-hover: #d4d6d8;
+
+  /* Quest Light - Icons */
+  --quest-light-icons-icon-nav-active: #f7b943;
+  --quest-light-icons-icon-nav-inactive: #7f838a;
+  --quest-light-icons-icon-spot: #0d0e12;
+  --quest-light-icons-handle: #2a303c;
+  --quest-light-icons-icon-primary: #493bc2;
+  --quest-light-icons-icon-secondary: #c99636;
+  --quest-light-icons-icon-subtle: #c99636;
+  --quest-light-icons-icon-on-brand: #ffffff;
+  --quest-light-icons-icon-success: #0f973d;
+  --quest-light-icons-icon-error: #d42620;
+  --quest-light-icons-icon-warning: #f3a218;
+  --quest-light-icons-icon-grey: #2a303c;
+
+  /* Quest Light - Button Colors */
+  --quest-light-btn-primary-disabled: #bfc1c4;
+  --quest-light-btn-primary-bg: #493bc2;
+  --quest-light-btn-primary-text: #ffffff;
+  --quest-light-btn-primary-border: #5b49ef;
+  --quest-light-btn-secondary-bg: #f7b943;
+  --quest-light-btn-secondary-text: #c99636;
+  --quest-light-btn-secondary-border: #c99636;
+  --quest-light-btn-disabled-bg: #c9963666;
+  --quest-light-btn-disabled-text: #c9963666;
+  --quest-light-btn-disabled-border: #c9963666;
+
+  /* Quest Light - Action States */
+  --quest-light-action-primary-default: #5b49ef;
+  --quest-light-action-primary-hover: #493bc2;
+  --quest-light-action-primary-active: #382c95;
+  --quest-light-action-secondary-default: #9b7429;
+  --quest-light-action-tertiary-default: #493bc2;
+  --quest-light-action-secondary-hover: #9b7429;
+  --quest-light-action-secondary-active: #9b7429;
+  --quest-light-action-disabled: #5b49ef80;
+
+  /* Quest Light - Spacing Scale */
+  --quest-light-space-4: 2.667rem;
+  --quest-light-space-6: 0.333rem;
+  --quest-light-space-8: 0.444rem;
+  --quest-light-space-10: 0.556rem;
+  --quest-light-space-12: 0.667rem;
+  --quest-light-space-14: 0.778rem;
+  --quest-light-space-16: 0.889rem;
+  --quest-light-space-20: 1.111rem;
+  --quest-light-space-24: 1.333rem;
+  --quest-light-space-32: 1.778rem;
+  --quest-light-space-40: 2.222rem;
+  --quest-light-space-48: 2.667rem;
+  --quest-light-space-56: 3.111rem;
+  --quest-light-space-64: 3.556rem;
+  --quest-light-space-72: 4rem;
+  --quest-light-space-80: 4.444rem;
+  --quest-light-space-88: 4.889rem;
+  --quest-light-space-96: 5.333rem;
+  --quest-light-space-104: 5.778rem;
+
+  /* Quest Light - Corner Radius */
+  --quest-light-corner-radius-1: 2.667rem;
+  --quest-light-corner-radius-2: 0.444rem;
+  --quest-light-corner-radius-3: 0.667rem;
+  --quest-light-corner-radius-4: 0.889rem;
+  --quest-light-corner-radius-5: 1.333rem;
+  --quest-light-corner-radius-6: 1.778rem;
+  --quest-light-corner-radius-full: 55.5rem;
+
+  /* Quest Light - Text Colors */
+  --quest-light-text-primary: #080a0c;
+  --quest-light-text-secondary: #555963;
+  --quest-light-text-link: #5b49ef;
+  --quest-light-text-input-placeholder: #aaacb1;
+  --quest-light-text-disabled: #7f838a;
+  --quest-light-text-subtle: #2a303c;
+  --quest-light-text-success: #0f973d;
+  --quest-light-text-error: #d42620;
+  --quest-light-text-warning: #f3a218;
+  --quest-light-text-link-hover: #9b7429;
+  --quest-light-text-link-grey-default: #555963;
+  --quest-light-text-link-grey-hover: #191d24;
+  --quest-light-text-link-grey-pressed: #080a0c;
+  --quest-light-text-link-grey-disabled: #7f838a;
+  --quest-light-text-on-brand-pry: #ffffff;
+  --quest-light-text-on-brand-secondary: #d4d6d8;
+
+  /* Quest Light - Border Colors */
+  --quest-light-border-divider: #d4d6d8;
+  --quest-light-border-interactive: #261e69;
+  --quest-light-border-strong: #7f838a;
+  --quest-light-border-focus: #493bc2;
+  --quest-light-border-subtle: #d4d6d8;
+  --quest-light-border-primary: #493bc2;
+  --quest-light-border-secondary: #c99636;
+  --quest-light-border-disabled: #d4d6d8;
+  --quest-light-border-success: #0f973d;
+  --quest-light-border-error: #d42620;
+  --quest-light-border-warning: #f3a218;
+
+  /* Quest Light - Font Families */
+  --quest-light-font-body: "Geist";
+  --quest-light-font-heading: "Bricolage Grotesque";
+  --quest-light-font-display: "Bricolage Grotesque";
+
+  /* Quest Light - Font Sizes */
+  --quest-light-font-size-heading-2: 1.556rem;
+  --quest-light-font-size-heading-1: 2rem;
+  --quest-light-font-size-display-small: 2.667rem;
+  --quest-light-font-size-display-large: 3.111rem;
+  --quest-light-font-size-heading-3: 1.333rem;
+  --quest-light-font-size-caption-small: 0.556rem;
+  --quest-light-font-size-caption-medium: 0.667rem;
+  --quest-light-font-size-body-small: 0.778rem;
+  --quest-light-font-size-body-medium: 0.889rem;
+  --quest-light-font-size-heading-4: 1.111rem;
+
+  /* Quest Light - Line Heights */
+  --quest-light-line-height-display-large: 3.556rem;
+  --quest-light-line-height-caption-small: 0.778rem;
+  --quest-light-line-height-caption-medium: 0.889rem;
+  --quest-light-line-height-body-medium: 1.333rem;
+  --quest-light-line-height-heading-8: 1.667rem;
+  --quest-light-line-height-heading-6: 2rem;
+  --quest-light-line-height-display-small: 3.111rem;
+  --quest-light-line-height-heading-7: 1.778rem;
+  --quest-light-line-height-body-small: 1.111rem;
+  --quest-light-line-height-heading-5: 2.333rem;
+
+  /* Quest Light - Font Weights */
+  --quest-light-font-weight-semibold: 600;
+  --quest-light-font-weight-light: 300;
+  --quest-light-font-weight-bold: 700;
+  --quest-light-font-weight-medium: 500;
+  --quest-light-font-weight-regular: 400;
+
+  /* Quest Light - Display Font Sizes */
+  --quest-light-display-large: 3.111rem;
+  --quest-light-display-small: 2.667rem;
+
+  /* Quest Light - Heading Font Sizes */
+  --quest-light-heading-1: 2rem;
+  --quest-light-heading-2: 1.556rem;
+  --quest-light-heading-3: 1.333rem;
+  --quest-light-heading-4: 1.111rem;
+
+  /* Quest Light - Paragraph Font Sizes */
+  --quest-light-paragraph-medium: 0.889rem;
+  --quest-light-paragraph-large: 1rem;
+  --quest-light-paragraph-small: 0.778rem;
+  --quest-light-paragraph-xsmall: 0.667rem;
+
+  /* Quest Light - Label/UI Font Sizes */
+  --quest-light-label-small: 0.778rem;
+  --quest-light-label-xsmall: 0.667rem;
+  --quest-light-label-caption: 0.556rem;
+  --quest-light-label-large: 1rem;
+  --quest-light-label-medium: 0.889rem;
+}
+
+/* ===================================
+   QUEST BRAND - DARK THEME
+   =================================== */
+
+:root {
+  /* Quest Dark - Greys */
+  --quest-dark-greys-overlay: #0d0e12;
+  --quest-dark-greys-text-primary: #f0f1f3;
+  --quest-dark-greys-text-secondary: #b8babe;
+  --quest-dark-greys-text-on-brand-light: #ffffff;
+  --quest-dark-greys-text-placeholder: #71757d;
+  --quest-dark-greys-border-strong: #4e535d;
+  --quest-dark-greys-border-subtle: #2a303c;
+  --quest-dark-greys-surface-background-subtle: #232832;
+  --quest-dark-greys-text-on-brand-dark: #2a303c;
+  --quest-dark-greys-text-disabled-icon-disabled: #4e535d;
+  --quest-dark-greys-surface-background-default: #000000;
+  --quest-dark-greys-base: #000000;
+
+  /* Quest Dark - Surface */
+  --quest-dark-surface-background-default: #0d0e12;
+  --quest-dark-surface-modal: #111318;
+  --quest-dark-surface-primary-hover: #f7b943;
+  --quest-dark-surface-primary-pressed: #382c95;
+  --quest-dark-surface-secondary-hover: #110c01;
+  --quest-dark-surface-secondary-pressed: #3f2f0e;
+  --quest-dark-surface-background-subtle: #222630;
+  --quest-dark-surface-accent-default: #4b280f;
+  --quest-dark-surface-input-default: #191d24;
+  --quest-dark-surface-input-disabled: #2a303c;
+  --quest-dark-surface-input-hover: #111318;
+
+  /* Quest Dark - Icons */
+  --quest-dark-icons-icon-nav-active: #f7b943;
+  --quest-dark-icons-icon-nav-inactive: #7f838a;
+  --quest-dark-icons-icon-spot: #ffffff;
+  --quest-dark-icons-handle: #2a303c;
+  --quest-dark-icons-icon-primary: #7c6df2;
+  --quest-dark-icons-icon-secondary: #c99636;
+  --quest-dark-icons-icon-subtle: #c99636;
+  --quest-dark-icons-icon-on-brand: #ffffff;
+  --quest-dark-icons-icon-success: #3fac64;
+  --quest-dark-icons-icon-error: #dd514d;
+  --quest-dark-icons-icon-warning: #f5b546;
+  --quest-dark-icons-icon-grey: #2a303c;
+
+  /* Quest Dark - Button Colors */
+  --quest-dark-btn-primary-disabled: #111318;
+  --quest-dark-btn-primary-bg: #493bc2;
+  --quest-dark-btn-primary-text: #ffffff;
+  --quest-dark-btn-primary-border: #5b49ef;
+  --quest-dark-btn-secondary-bg: #f9c769;
+  --quest-dark-btn-secondary-text: #f9c769;
+  --quest-dark-btn-secondary-border: #c99636;
+  --quest-dark-btn-disabled-bg: #c9963666;
+  --quest-dark-btn-disabled-text: #c9963666;
+  --quest-dark-btn-disabled-border: #c9963666;
+
+  /* Quest Dark - Action States */
+  --quest-dark-action-primary-default: #5b49ef;
+  --quest-dark-action-primary-hover: #7c6df2;
+  --quest-dark-action-primary-active: #9d92f5;
+  --quest-dark-action-secondary-default: #f7b943;
+  --quest-dark-action-tertiary-default: #7c6df2;
+  --quest-dark-action-secondary-hover: #fad58e;
+  --quest-dark-action-secondary-active: #fce3b4;
+  --quest-dark-action-disabled: #5b49ef80;
+
+  /* Quest Dark - Spacing Scale */
+  --quest-dark-space-4: 0.222rem;
+  --quest-dark-space-6: 0.333rem;
+  --quest-dark-space-8: 0.444rem;
+  --quest-dark-space-10: 0.556rem;
+  --quest-dark-space-12: 0.667rem;
+  --quest-dark-space-14: 0.778rem;
+  --quest-dark-space-16: 0.889rem;
+  --quest-dark-space-20: 1.111rem;
+  --quest-dark-space-24: 1.333rem;
+  --quest-dark-space-32: 1.778rem;
+  --quest-dark-space-40: 2.222rem;
+  --quest-dark-space-48: 2.667rem;
+  --quest-dark-space-56: 3.111rem;
+  --quest-dark-space-64: 3.556rem;
+  --quest-dark-space-72: 4rem;
+  --quest-dark-space-80: 4.444rem;
+  --quest-dark-space-88: 4.889rem;
+  --quest-dark-space-96: 5.333rem;
+  --quest-dark-space-104: 5.778rem;
+
+  /* Quest Dark - Corner Radius */
+  --quest-dark-corner-radius-1: 2.667rem;
+  --quest-dark-corner-radius-2: 0.444rem;
+  --quest-dark-corner-radius-3: 0.667rem;
+  --quest-dark-corner-radius-4: 0.889rem;
+  --quest-dark-corner-radius-5: 1.333rem;
+  --quest-dark-corner-radius-6: 1.778rem;
+  --quest-dark-corner-radius-full: 55.5rem;
+
+  /* Quest Dark - Text Colors */
+  --quest-dark-text-primary: #ffffff;
+  --quest-dark-text-secondary: #aaacb1;
+  --quest-dark-text-link: #bdb6f9;
+  --quest-dark-text-input-placeholder: #aaacb1;
+  --quest-dark-text-disabled: #555963;
+  --quest-dark-text-subtle: #aaacb1;
+  --quest-dark-text-success: #3fac64;
+  --quest-dark-text-error: #dd514d;
+  --quest-dark-text-warning: #f3a218;
+  --quest-dark-text-link-hover: #fdf1d9;
+  --quest-dark-text-link-grey-default: #2a303c;
+  --quest-dark-text-link-grey-hover: #aaacb1;
+  --quest-dark-text-link-grey-pressed: #d4d6d8;
+  --quest-dark-text-link-grey-disabled: #555963;
+  --quest-dark-text-on-brand-pry: #ffffff;
+  --quest-dark-text-on-brand-secondary: #ffffff;
+
+  /* Quest Dark - Border Colors */
+  --quest-dark-border-divider: #2a303c;
+  --quest-dark-border-interactive: #9d92f5;
+  --quest-dark-border-strong: #555963;
+  --quest-dark-border-focus: #9d92f5;
+  --quest-dark-border-subtle: #2a303c;
+  --quest-dark-border-primary: #7c6df2;
+  --quest-dark-border-secondary: #f9c769;
+  --quest-dark-border-disabled: #d4d6d8;
+  --quest-dark-border-success: #3fac64;
+  --quest-dark-border-error: #dd514d;
+  --quest-dark-border-warning: #f5b546;
+
+  /* Quest Dark - Font Families */
+  --quest-dark-font-body: "Geist";
+  --quest-dark-font-heading: "Bricolage Grotesque";
+  --quest-dark-font-display: "Bricolage Grotesque";
+
+  /* Quest Dark - Font Sizes */
+  --quest-dark-font-size-heading-2: 1.556rem;
+  --quest-dark-font-size-heading-1: 2rem;
+  --quest-dark-font-size-display-small: 2.667rem;
+  --quest-dark-font-size-display-large: 3.111rem;
+  --quest-dark-font-size-heading-3: 1.333rem;
+  --quest-dark-font-size-caption-small: 0.556rem;
+  --quest-dark-font-size-caption-medium: 0.667rem;
+  --quest-dark-font-size-body-small: 0.778rem;
+  --quest-dark-font-size-body-medium: 0.889rem;
+  --quest-dark-font-size-heading-4: 1.111rem;
+
+  /* Quest Dark - Line Heights */
+  --quest-dark-line-height-display-large: 3.556rem;
+  --quest-dark-line-height-caption-small: 0.778rem;
+  --quest-dark-line-height-caption-medium: 0.889rem;
+  --quest-dark-line-height-body-medium: 1.333rem;
+  --quest-dark-line-height-heading-8: 1.667rem;
+  --quest-dark-line-height-heading-6: 2rem;
+  --quest-dark-line-height-display-small: 3.111rem;
+  --quest-dark-line-height-heading-7: 1.778rem;
+  --quest-dark-line-height-body-small: 1.111rem;
+  --quest-dark-line-height-heading-5: 2.333rem;
+
+  /* Quest Dark - Font Weights */
+  --quest-dark-font-weight-semibold: 600;
+  --quest-dark-font-weight-light: 300;
+  --quest-dark-font-weight-bold: 700;
+  --quest-dark-font-weight-medium: 500;
+  --quest-dark-font-weight-regular: 400;
+
+  /* Quest Dark - Display Font Sizes */
+  --quest-dark-display-large: 3.111rem;
+  --quest-dark-display-small: 2.667rem;
+
+  /* Quest Dark - Heading Font Sizes */
+  --quest-dark-heading-1: 2rem;
+  --quest-dark-heading-2: 1.556rem;
+  --quest-dark-heading-3: 1.333rem;
+  --quest-dark-heading-4: 1.111rem;
+
+  /* Quest Dark - Paragraph Font Sizes */
+  --quest-dark-paragraph-medium: 0.889rem;
+  --quest-dark-paragraph-large: 1rem;
+  --quest-dark-paragraph-small: 0.889rem;
+  --quest-dark-paragraph-xsmall: 0.667rem;
+
+  /* Quest Dark - Label/UI Font Sizes */
+  --quest-dark-label-small: 0.778rem;
+  --quest-dark-label-xsmall: 0.667rem;
+  --quest-dark-label-caption: 0.556rem;
+  --quest-dark-label-large: 1rem;
+  --quest-dark-label-medium: 0.889rem;
+}
+
+/* ===================================
+   VOLT BRAND - LIGHT THEME
+   =================================== */
+
+:root {
+  /* Volt Light - Greys */
+  --volt-light-greys-overlay: #7f838a;
+  --volt-light-greys-text-primary: #2a303c;
+  --volt-light-greys-text-secondary: #4e535d;
+  --volt-light-greys-text-on-brand-light: #ffffff;
+  --volt-light-greys-text-placeholder: #4e535d;
+  --volt-light-greys-border-strong: #95989e;
+  --volt-light-greys-border-subtle: #d4d6d8;
+  --volt-light-greys-surface-background-subtle: #f0f1f3;
+  --volt-light-greys-text-on-brand-dark: #2a303c;
+  --volt-light-greys-text-disabled-icon-disabled: #71757d;
+  --volt-light-greys-surface-background-default: #ffffff;
+  --volt-light-greys-base: #ffffff;
+
+  /* Volt Light - Surface */
+  --volt-light-surface-background-default: #ffffff;
+  --volt-light-surface-modal: #d4d6d8;
+  --volt-light-surface-primary-hover: #2b62ed;
+  --volt-light-surface-primary-pressed: #d5e0fb;
+  --volt-light-surface-secondary-hover: #fff4ed;
+  --volt-light-surface-secondary-pressed: #ffeadb;
+  --volt-light-surface-background-subtle: #f0f1f3;
+  --volt-light-surface-accent-default: #ffeadb;
+  --volt-light-surface-input-default: #2a303c;
+  --volt-light-surface-input-disabled: #2a303c;
+  --volt-light-surface-input-hover: #d4d6d8;
+
+  /* Volt Light - Icons */
+  --volt-light-icons-icon-nav-active: #fd964a;
+  --volt-light-icons-icon-nav-inactive: #7f838a;
+  --volt-light-icons-icon-spot: #0d0e12;
+  --volt-light-icons-handle: #d4d6d8;
+  --volt-light-icons-icon-primary: #2b62ed;
+  --volt-light-icons-icon-secondary: #d17b3b;
+  --volt-light-icons-icon-subtle: #d17b3b;
+  --volt-light-icons-icon-on-brand: #ffffff;
+  --volt-light-icons-icon-success: #0f973d;
+  --volt-light-icons-icon-error: #d42620;
+  --volt-light-icons-icon-warning: #f3a218;
+  --volt-light-icons-icon-grey: #2a303c;
+
+  /* Volt Light - Button Colors */
+  --volt-light-btn-primary-disabled: #bfc1c4;
+  --volt-light-btn-primary-bg: #224ebe;
+  --volt-light-btn-primary-text: #ffffff;
+  --volt-light-btn-primary-border: #2b62ed;
+  --volt-light-btn-secondary-bg: #fd964a;
+  --volt-light-btn-secondary-text: #d17b3b;
+  --volt-light-btn-secondary-border: #d17b3b;
+  --volt-light-btn-disabled-bg: #d17b3b66;
+  --volt-light-btn-disabled-text: #d17b3b66;
+  --volt-light-btn-disabled-border: #d17b3b66;
+
+  /* Volt Light - Action States */
+  --volt-light-action-primary-default: #2b62ed;
+  --volt-light-action-primary-hover: #224ebe;
+  --volt-light-action-primary-active: #1a3b8e;
+  --volt-light-action-secondary-default: #d17b3b;
+  --volt-light-action-tertiary-default: #1a3b8e;
+  --volt-light-action-secondary-hover: #a45f2c;
+  --volt-light-action-secondary-active: #78441e;
+  --volt-light-action-disabled: #2b62ed80;
+
+  /* Volt Light - Spacing Scale */
+  --volt-light-space-4: 2.667rem;
+  --volt-light-space-6: 0.333rem;
+  --volt-light-space-8: 0.444rem;
+  --volt-light-space-10: 0.556rem;
+  --volt-light-space-12: 0.667rem;
+  --volt-light-space-14: 0.778rem;
+  --volt-light-space-16: 0.889rem;
+  --volt-light-space-20: 1.111rem;
+  --volt-light-space-24: 1.333rem;
+  --volt-light-space-32: 1.778rem;
+  --volt-light-space-40: 2.222rem;
+  --volt-light-space-48: 2.667rem;
+  --volt-light-space-56: 3.111rem;
+  --volt-light-space-64: 3.556rem;
+  --volt-light-space-72: 4rem;
+  --volt-light-space-80: 4.444rem;
+  --volt-light-space-88: 4.889rem;
+  --volt-light-space-96: 5.333rem;
+  --volt-light-space-104: 5.778rem;
+
+  /* Volt Light - Corner Radius */
+  --volt-light-corner-radius-1: 2.667rem;
+  --volt-light-corner-radius-2: 0.444rem;
+  --volt-light-corner-radius-3: 0.667rem;
+  --volt-light-corner-radius-4: 0.889rem;
+  --volt-light-corner-radius-5: 1.333rem;
+  --volt-light-corner-radius-6: 1.778rem;
+  --volt-light-corner-radius-full: 55.5rem;
+
+  /* Volt Light - Text Colors */
+  --volt-light-text-primary: #080a0c;
+  --volt-light-text-secondary: #555963;
+  --volt-light-text-link: #2b62ed;
+  --volt-light-text-input-placeholder: #aaacb1;
+  --volt-light-text-disabled: #7f838a;
+  --volt-light-text-subtle: #2a303c;
+  --volt-light-text-success: #0f973d;
+  --volt-light-text-error: #d42620;
+  --volt-light-text-warning: #f3a218;
+  --volt-light-text-link-hover: #a45f2c;
+  --volt-light-text-link-grey-default: #555963;
+  --volt-light-text-link-grey-hover: #191d24;
+  --volt-light-text-link-grey-pressed: #080a0c;
+  --volt-light-text-link-grey-disabled: #7f838a;
+  --volt-light-text-on-brand-pry: #ffffff;
+  --volt-light-text-on-brand-secondary: #d4d6d8;
+
+  /* Volt Light - Border Colors */
+  --volt-light-border-divider: #d4d6d8;
+  --volt-light-border-interactive: #11275f;
+  --volt-light-border-strong: #7f838a;
+  --volt-light-border-focus: #224ebe;
+  --volt-light-border-subtle: #d4d6d8;
+  --volt-light-border-primary: #224ebe;
+  --volt-light-border-secondary: #d17b3b;
+  --volt-light-border-disabled: #d4d6d8;
+  --volt-light-border-success: #0f973d;
+  --volt-light-border-error: #d42620;
+  --volt-light-border-warning: #f3a218;
+
+  /* Volt Light - Font Families */
+  --volt-light-font-body: "Geist";
+  --volt-light-font-heading: "Switzer";
+  --volt-light-font-display: "Switzer";
+
+  /* Volt Light - Font Sizes */
+  --volt-light-font-size-heading-2: 1.556rem;
+  --volt-light-font-size-heading-1: 2rem;
+  --volt-light-font-size-display-small: 2.667rem;
+  --volt-light-font-size-display-large: 3.111rem;
+  --volt-light-font-size-heading-3: 1.333rem;
+  --volt-light-font-size-caption-small: 0.556rem;
+  --volt-light-font-size-caption-medium: 0.667rem;
+  --volt-light-font-size-body-small: 0.778rem;
+  --volt-light-font-size-body-medium: 0.889rem;
+  --volt-light-font-size-heading-4: 1.111rem;
+
+  /* Volt Light - Line Heights */
+  --volt-light-line-height-display-large: 3.556rem;
+  --volt-light-line-height-caption-small: 0.778rem;
+  --volt-light-line-height-caption-medium: 0.889rem;
+  --volt-light-line-height-body-medium: 1.333rem;
+  --volt-light-line-height-heading-8: 1.667rem;
+  --volt-light-line-height-heading-6: 2rem;
+  --volt-light-line-height-display-small: 3.111rem;
+  --volt-light-line-height-heading-7: 1.778rem;
+  --volt-light-line-height-body-small: 1.111rem;
+  --volt-light-line-height-heading-5: 2.333rem;
+
+  /* Volt Light - Font Weights */
+  --volt-light-font-weight-semibold: 600;
+  --volt-light-font-weight-light: 300;
+  --volt-light-font-weight-bold: 700;
+  --volt-light-font-weight-medium: 500;
+  --volt-light-font-weight-regular: 400;
+
+  /* Volt Light - Display Font Sizes */
+  --volt-light-display-large: 3.111rem;
+  --volt-light-display-small: 2.667rem;
+
+  /* Volt Light - Heading Font Sizes */
+  --volt-light-heading-1: 2rem;
+  --volt-light-heading-2: 1.556rem;
+  --volt-light-heading-3: 1.333rem;
+  --volt-light-heading-4: 1.111rem;
+
+  /* Volt Light - Paragraph Font Sizes */
+  --volt-light-paragraph-medium: 0.889rem;
+  --volt-light-paragraph-large: 1rem;
+  --volt-light-paragraph-small: 0.778rem;
+  --volt-light-paragraph-xsmall: 0.667rem;
+
+  /* Volt Light - Label/UI Font Sizes */
+  --volt-light-label-small: 0.778rem;
+  --volt-light-label-xsmall: 0.667rem;
+  --volt-light-label-caption: 0.556rem;
+  --volt-light-label-large: 1rem;
+  --volt-light-label-medium: 0.889rem;
+}
+
+/* ===================================
+   VOLT BRAND - DARK THEME
+   =================================== */
+
+:root {
+  /* Volt Dark - Greys */
+  --volt-dark-greys-overlay: #0d0e12;
+  --volt-dark-greys-text-primary: #f0f1f3;
+  --volt-dark-greys-text-secondary: #b8babe;
+  --volt-dark-greys-text-on-brand-light: #ffffff;
+  --volt-dark-greys-text-placeholder: #71757d;
+  --volt-dark-greys-border-strong: #4e535d;
+  --volt-dark-greys-border-subtle: #2a303c;
+  --volt-dark-greys-surface-background-subtle: #232832;
+  --volt-dark-greys-text-on-brand-dark: #2a303c;
+  --volt-dark-greys-text-disabled-icon-disabled: #4e535d;
+  --volt-dark-greys-surface-background-default: #000000;
+  --volt-dark-greys-base: #000000;
+
+  /* Volt Dark - Surface */
+  --volt-dark-surface-background-default: #0d0e12;
+  --volt-dark-surface-modal: #111318;
+  --volt-dark-surface-primary-hover: #2b62ed;
+  --volt-dark-surface-primary-pressed: #224ebe;
+  --volt-dark-surface-secondary-hover: #1f0d00;
+  --volt-dark-surface-secondary-pressed: #351b07;
+  --volt-dark-surface-background-subtle: #222630;
+  --volt-dark-surface-accent-default: #4b280f;
+  --volt-dark-surface-input-default: #191d24;
+  --volt-dark-surface-input-disabled: #2a303c;
+  --volt-dark-surface-input-hover: #111318;
+
+  /* Volt Dark - Icons */
+  --volt-dark-icons-icon-nav-active: #fd964a;
+  --volt-dark-icons-icon-nav-inactive: #7f838a;
+  --volt-dark-icons-icon-spot: #ffffff;
+  --volt-dark-icons-handle: #2a303c;
+  --volt-dark-icons-icon-primary: #2b62ed;
+  --volt-dark-icons-icon-secondary: #d17b3b;
+  --volt-dark-icons-icon-subtle: #d17b3b;
+  --volt-dark-icons-icon-on-brand: #ffffff;
+  --volt-dark-icons-icon-success: #3fac64;
+  --volt-dark-icons-icon-error: #dd514d;
+  --volt-dark-icons-icon-warning: #f5b546;
+  --volt-dark-icons-icon-grey: #2a303c;
+
+  /* Volt Dark - Button Colors */
+  --volt-dark-btn-primary-disabled: #080a0c;
+  --volt-dark-btn-primary-bg: #224ebe;
+  --volt-dark-btn-primary-text: #ffffff;
+  --volt-dark-btn-primary-border: #2b62ed;
+  --volt-dark-btn-secondary-bg: #fdab6e;
+  --volt-dark-btn-secondary-text: #fdab6e;
+  --volt-dark-btn-secondary-border: #d17b3b;
+  --volt-dark-btn-disabled-bg: #d17b3b66;
+  --volt-dark-btn-disabled-text: #d17b3b66;
+  --volt-dark-btn-disabled-border: #d17b3b66;
+
+  /* Volt Dark - Action States */
+  --volt-dark-action-primary-default: #2b62ed;
+  --volt-dark-action-primary-hover: #5581f1;
+  --volt-dark-action-primary-active: #80a1f4;
+  --volt-dark-action-secondary-default: #fdab6e;
+  --volt-dark-action-tertiary-default: #5581f1;
+  --volt-dark-action-secondary-hover: #fd964a;
+  --volt-dark-action-secondary-active: #fec092;
+  --volt-dark-action-disabled: #2b62ed80;
+
+  /* Volt Dark - Spacing Scale */
+  --volt-dark-space-4: 0.222rem;
+  --volt-dark-space-6: 0.333rem;
+  --volt-dark-space-8: 0.444rem;
+  --volt-dark-space-10: 0.556rem;
+  --volt-dark-space-12: 0.667rem;
+  --volt-dark-space-14: 0.778rem;
+  --volt-dark-space-16: 0.889rem;
+  --volt-dark-space-20: 1.111rem;
+  --volt-dark-space-24: 1.333rem;
+  --volt-dark-space-32: 1.778rem;
+  --volt-dark-space-40: 2.222rem;
+  --volt-dark-space-48: 2.667rem;
+  --volt-dark-space-56: 3.111rem;
+  --volt-dark-space-64: 3.556rem;
+  --volt-dark-space-72: 4rem;
+  --volt-dark-space-80: 4.444rem;
+  --volt-dark-space-88: 4.889rem;
+  --volt-dark-space-96: 5.333rem;
+  --volt-dark-space-104: 5.778rem;
+
+  /* Volt Dark - Corner Radius */
+  --volt-dark-corner-radius-1: 2.667rem;
+  --volt-dark-corner-radius-2: 0.444rem;
+  --volt-dark-corner-radius-3: 0.667rem;
+  --volt-dark-corner-radius-4: 0.889rem;
+  --volt-dark-corner-radius-5: 1.333rem;
+  --volt-dark-corner-radius-6: 1.778rem;
+  --volt-dark-corner-radius-full: 55.5rem;
+
+  /* Volt Dark - Text Colors */
+  --volt-dark-text-primary: #ffffff;
+  --volt-dark-text-secondary: #aaacb1;
+  --volt-dark-text-link: #aac0f8;
+  --volt-dark-text-input-placeholder: #aaacb1;
+  --volt-dark-text-disabled: #555963;
+  --volt-dark-text-subtle: #aaacb1;
+  --volt-dark-text-success: #3fac64;
+  --volt-dark-text-error: #dd514d;
+  --volt-dark-text-warning: #f3a218;
+  --volt-dark-text-link-hover: #ffeadb;
+  --volt-dark-text-link-grey-default: #2a303c;
+  --volt-dark-text-link-grey-hover: #aaacb1;
+  --volt-dark-text-link-grey-pressed: #d4d6d8;
+  --volt-dark-text-link-grey-disabled: #555963;
+  --volt-dark-text-on-brand-pry: #ffffff;
+  --volt-dark-text-on-brand-secondary: #d4d6d8;
+
+  /* Volt Dark - Border Colors */
+  --volt-dark-border-divider: #2a303c;
+  --volt-dark-border-interactive: #80a1f4;
+  --volt-dark-border-strong: #555963;
+  --volt-dark-border-focus: #80a1f4;
+  --volt-dark-border-subtle: #2a303c;
+  --volt-dark-border-primary: #5581f1;
+  --volt-dark-border-secondary: #fdab6e;
+  --volt-dark-border-disabled: #d4d6d8;
+  --volt-dark-border-success: #3fac64;
+  --volt-dark-border-error: #dd514d;
+  --volt-dark-border-warning: #f5b546;
+
+  /* Volt Dark - Font Families */
+  --volt-dark-font-body: "Geist";
+  --volt-dark-font-heading: "Bricolage Grotesque";
+  --volt-dark-font-display: "Bricolage Grotesque";
+
+  /* Volt Dark - Font Sizes */
+  --volt-dark-font-size-heading-2: 1.556rem;
+  --volt-dark-font-size-heading-1: 2rem;
+  --volt-dark-font-size-display-small: 2.667rem;
+  --volt-dark-font-size-display-large: 3.111rem;
+  --volt-dark-font-size-heading-3: 1.333rem;
+  --volt-dark-font-size-caption-small: 0.556rem;
+  --volt-dark-font-size-caption-medium: 0.667rem;
+  --volt-dark-font-size-body-small: 0.778rem;
+  --volt-dark-font-size-body-medium: 0.889rem;
+  --volt-dark-font-size-heading-4: 1.111rem;
+
+  /* Volt Dark - Line Heights */
+  --volt-dark-line-height-display-large: 3.556rem;
+  --volt-dark-line-height-caption-small: 0.778rem;
+  --volt-dark-line-height-caption-medium: 0.889rem;
+  --volt-dark-line-height-body-medium: 1.333rem;
+  --volt-dark-line-height-heading-8: 1.667rem;
+  --volt-dark-line-height-heading-6: 2rem;
+  --volt-dark-line-height-display-small: 3.111rem;
+  --volt-dark-line-height-heading-7: 1.778rem;
+  --volt-dark-line-height-body-small: 1.111rem;
+  --volt-dark-line-height-heading-5: 2.333rem;
+
+  /* Volt Dark - Font Weights */
+  --volt-dark-font-weight-semibold: 600;
+  --volt-dark-font-weight-light: 300;
+  --volt-dark-font-weight-bold: 700;
+  --volt-dark-font-weight-medium: 500;
+  --volt-dark-font-weight-regular: 400;
+
+  /* Volt Dark - Display Font Sizes */
+  --volt-dark-display-large: 3.111rem;
+  --volt-dark-display-small: 2.667rem;
+
+  /* Volt Dark - Heading Font Sizes */
+  --volt-dark-heading-1: 2rem;
+  --volt-dark-heading-2: 1.556rem;
+  --volt-dark-heading-3: 1.333rem;
+  --volt-dark-heading-4: 1.111rem;
+
+  /* Volt Dark - Paragraph Font Sizes */
+  --volt-dark-paragraph-medium: 0.889rem;
+  --volt-dark-paragraph-large: 1rem;
+  --volt-dark-paragraph-small: 0.778rem;
+  --volt-dark-paragraph-xsmall: 0.667rem;
+
+  /* Volt Dark - Label/UI Font Sizes */
+  --volt-dark-label-small: 0.778rem;
+  --volt-dark-label-xsmall: 0.667rem;
+  --volt-dark-label-caption: 0.556rem;
+  --volt-dark-label-large: 1rem;
+  --volt-dark-label-medium: 0.889rem;
+}
+
+/* ===================================
+   FEEDBACK TOKENS
+   =================================== */
+
+:root {
+  /* Feedback Light Theme */
+  /* Error Feedback */
+  --feedback-light-error-primary: #d42620;
+  --feedback-light-error-secondary: #f6d4d2;
+  --feedback-light-error-surface: #fbe9e9;
+  --feedback-light-error-border: #e57d79;
+  --feedback-light-error-text: #d42620;
+  --feedback-light-error-text-inverse: #ffffff;
+
+  /* Success Feedback */
+  --feedback-light-success-primary: #0f973d;
+  --feedback-light-success-secondary: #cdead7;
+  --feedback-light-success-surface: #e5f5eb;
+  --feedback-light-success-border: #6ec18a;
+  --feedback-light-success-text: #0f973d;
+  --feedback-light-success-text-inverse: #ffffff;
+
+  /* Warning Feedback */
+  --feedback-light-warning-primary: #c28213;
+  --feedback-light-warning-secondary: #fdecd1;
+  --feedback-light-warning-surface: #fef6e8;
+  --feedback-light-warning-border: #f8c774;
+  --feedback-light-warning-text: #92610e;
+  --feedback-light-warning-text-inverse: #ffffff;
+
+  /* Feedback Dark Theme */
+  /* Error Feedback */
+  --feedback-dark-error-primary: #dd514d;
+  --feedback-dark-error-secondary: #2a0806;
+  --feedback-dark-error-surface: #150403;
+  --feedback-dark-error-border: #aa1e1a;
+  --feedback-dark-error-text: #e57d79;
+  --feedback-dark-error-text-inverse: #150403;
+
+  /* Success Feedback */
+  --feedback-dark-success-primary: #3fac64;
+  --feedback-dark-success-secondary: #031e0c;
+  --feedback-dark-success-surface: #020f06;
+  --feedback-dark-success-border: #0c7931;
+  --feedback-dark-success-text: #6ec18a;
+  --feedback-dark-success-text-inverse: #020f06;
+
+  /* Warning Feedback */
+  --feedback-dark-warning-primary: #f5b546;
+  --feedback-dark-warning-secondary: #312005;
+  --feedback-dark-warning-surface: #181002;
+  --feedback-dark-warning-border: #c28213;
+  --feedback-dark-warning-text: #f8c774;
+  --feedback-dark-warning-text-inverse: #181002;
+}
+
+/* ===================================
+   THEME CLASSES FOR STORYBOOK
+   =================================== */
+
+/* Quest Light Theme */
+.theme-quest-light,
+body.theme-quest-light {
+  /* Storybook container styling */
+  padding: 1rem;
+  min-height: 100vh;
+  
+  /* Map Quest Light tokens to active theme variables */
+  --spectrum-global-color-gray-900: var(--quest-light-text-primary);
+  --spectrum-global-color-gray-700: var(--quest-light-text-secondary);
+  --spectrum-global-color-blue-600: var(--quest-light-action-primary-default);
+  --spectrum-global-color-blue-700: var(--quest-light-action-primary-hover);
+  --spectrum-global-color-blue-800: var(--quest-light-action-primary-active);
+  
+  /* Button specific mappings */
+  --spectrum-button-primary-background-color: var(--quest-light-btn-primary-bg);
+  --spectrum-button-primary-background-color-hover: var(--quest-light-action-primary-hover);
+  --spectrum-button-primary-background-color-down: var(--quest-light-action-primary-active);
+  --spectrum-button-primary-border-color: var(--quest-light-btn-primary-border);
+  --spectrum-button-primary-text-color: var(--quest-light-btn-primary-text);
+  
+  --spectrum-button-secondary-background-color: var(--quest-light-btn-secondary-bg);
+  --spectrum-button-secondary-text-color: var(--quest-light-btn-secondary-text);
+  --spectrum-button-secondary-border-color: var(--quest-light-btn-secondary-border);
+  
+  /* Typography */
+  --spectrum-global-font-family-base: var(--quest-light-font-body);
+  --spectrum-global-font-family-heading: var(--quest-light-font-heading);
+  
+  /* Surface colors */
+  background-color: var(--quest-light-surface-background-default);
+  color: var(--quest-light-text-primary);
+}
+
+/* Quest Dark Theme */
+.theme-quest-dark,
+body.theme-quest-dark {
+  /* Storybook container styling */
+  padding: 1rem;
+  min-height: 100vh;
+  
+  /* Map Quest Dark tokens to active theme variables */
+  --spectrum-global-color-gray-900: var(--quest-dark-text-primary);
+  --spectrum-global-color-gray-700: var(--quest-dark-text-secondary);
+  --spectrum-global-color-blue-600: var(--quest-dark-action-primary-default);
+  --spectrum-global-color-blue-700: var(--quest-dark-action-primary-hover);
+  --spectrum-global-color-blue-800: var(--quest-dark-action-primary-active);
+  
+  /* Button specific mappings */
+  --spectrum-button-primary-background-color: var(--quest-dark-btn-primary-bg);
+  --spectrum-button-primary-background-color-hover: var(--quest-dark-action-primary-hover);
+  --spectrum-button-primary-background-color-down: var(--quest-dark-action-primary-active);
+  --spectrum-button-primary-border-color: var(--quest-dark-btn-primary-border);
+  --spectrum-button-primary-text-color: var(--quest-dark-btn-primary-text);
+  
+  --spectrum-button-secondary-background-color: var(--quest-dark-btn-secondary-bg);
+  --spectrum-button-secondary-text-color: var(--quest-dark-btn-secondary-text);
+  --spectrum-button-secondary-border-color: var(--quest-dark-btn-secondary-border);
+  
+  /* Typography */
+  --spectrum-global-font-family-base: var(--quest-dark-font-body);
+  --spectrum-global-font-family-heading: var(--quest-dark-font-heading);
+  
+  /* Surface colors */
+  background-color: var(--quest-dark-surface-background-default);
+  color: var(--quest-dark-text-primary);
+}
+
+/* Volt Light Theme */
+.theme-volt-light,
+body.theme-volt-light {
+  /* Storybook container styling */
+  padding: 1rem;
+  min-height: 100vh;
+  
+  /* Map Volt Light tokens to active theme variables */
+  --spectrum-global-color-gray-900: var(--volt-light-text-primary);
+  --spectrum-global-color-gray-700: var(--volt-light-text-secondary);
+  --spectrum-global-color-blue-600: var(--volt-light-action-primary-default);
+  --spectrum-global-color-blue-700: var(--volt-light-action-primary-hover);
+  --spectrum-global-color-blue-800: var(--volt-light-action-primary-active);
+  
+  /* Button specific mappings */
+  --spectrum-button-primary-background-color: var(--volt-light-btn-primary-bg);
+  --spectrum-button-primary-background-color-hover: var(--volt-light-action-primary-hover);
+  --spectrum-button-primary-background-color-down: var(--volt-light-action-primary-active);
+  --spectrum-button-primary-border-color: var(--volt-light-btn-primary-border);
+  --spectrum-button-primary-text-color: var(--volt-light-btn-primary-text);
+  
+  --spectrum-button-secondary-background-color: var(--volt-light-btn-secondary-bg);
+  --spectrum-button-secondary-text-color: var(--volt-light-btn-secondary-text);
+  --spectrum-button-secondary-border-color: var(--volt-light-btn-secondary-border);
+  
+  /* Typography - Volt uses Switzer for headings */
+  --spectrum-global-font-family-base: var(--volt-light-font-body);
+  --spectrum-global-font-family-heading: var(--volt-light-font-heading);
+  
+  /* Surface colors */
+  background-color: var(--volt-light-surface-background-default);
+  color: var(--volt-light-text-primary);
+}
+
+/* Volt Dark Theme */
+.theme-volt-dark,
+body.theme-volt-dark {
+  /* Storybook container styling */
+  padding: 1rem;
+  min-height: 100vh;
+  
+  /* Map Volt Dark tokens to active theme variables */
+  --spectrum-global-color-gray-900: var(--volt-dark-text-primary);
+  --spectrum-global-color-gray-700: var(--volt-dark-text-secondary);
+  --spectrum-global-color-blue-600: var(--volt-dark-action-primary-default);
+  --spectrum-global-color-blue-700: var(--volt-dark-action-primary-hover);
+  --spectrum-global-color-blue-800: var(--volt-dark-action-primary-active);
+  
+  /* Button specific mappings */
+  --spectrum-button-primary-background-color: var(--volt-dark-btn-primary-bg);
+  --spectrum-button-primary-background-color-hover: var(--volt-dark-action-primary-hover);
+  --spectrum-button-primary-background-color-down: var(--volt-dark-action-primary-active);
+  --spectrum-button-primary-border-color: var(--volt-dark-btn-primary-border);
+  --spectrum-button-primary-text-color: var(--volt-dark-btn-primary-text);
+  
+  --spectrum-button-secondary-background-color: var(--volt-dark-btn-secondary-bg);
+  --spectrum-button-secondary-text-color: var(--volt-dark-btn-secondary-text);
+  --spectrum-button-secondary-border-color: var(--volt-dark-btn-secondary-border);
+  
+  /* Typography - Volt Dark uses Bricolage Grotesque */
+  --spectrum-global-font-family-base: var(--volt-dark-font-body);
+  --spectrum-global-font-family-heading: var(--volt-dark-font-heading);
+  
+  /* Surface colors */
+  background-color: var(--volt-dark-surface-background-default);
+  color: var(--volt-dark-text-primary);
+}
+
+/* ===================================
+   END OF CSS TOKENS
+   =================================== */

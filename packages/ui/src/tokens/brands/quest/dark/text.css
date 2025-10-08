@@ -1,0 +1,33 @@
+/* Quest Dark Theme Text & Borders */
+:root {
+  /* Text Colors */
+  --quest-dark-text-primary: #ffffff;
+  --quest-dark-text-secondary: #aaacb1;
+  --quest-dark-text-link: #bdb6f9;
+  --quest-dark-text-input-placeholder: #aaacb1;
+  --quest-dark-text-disabled: #555963;
+  --quest-dark-text-subtle: #aaacb1;
+  --quest-dark-text-success: #3fac64;
+  --quest-dark-text-error: #dd514d;
+  --quest-dark-text-warning: #f3a218;
+  --quest-dark-text-link-hover: #fdf1d9;
+  --quest-dark-text-link-grey-default: #2a303c;
+  --quest-dark-text-link-grey-hover: #aaacb1;
+  --quest-dark-text-link-grey-pressed: #d4d6d8;
+  --quest-dark-text-link-grey-disabled: #555963;
+  --quest-dark-text-on-brand-pry: #ffffff;
+  --quest-dark-text-on-brand-secondary: #ffffff;
+
+  /* Border Colors */
+  --quest-dark-border-divider: #2a303c;
+  --quest-dark-border-interactive: #9d92f5;
+  --quest-dark-border-strong: #555963;
+  --quest-dark-border-focus: #9d92f5;
+  --quest-dark-border-subtle: #2a303c;
+  --quest-dark-border-primary: #7c6df2;
+  --quest-dark-border-secondary: #f9c769;
+  --quest-dark-border-disabled: #d4d6d8;
+  --quest-dark-border-success: #3fac64;
+  --quest-dark-border-error: #dd514d;
+  --quest-dark-border-warning: #f5b546;
+}

@@ -1,0 +1,32 @@
+/* Volt Light Theme Spacing */
+:root {
+  /* Spacing Scale */
+  --volt-light-space-4: 2.667rem;
+  --volt-light-space-6: 0.333rem;
+  --volt-light-space-8: 0.444rem;
+  --volt-light-space-10: 0.556rem;
+  --volt-light-space-12: 0.667rem;
+  --volt-light-space-14: 0.778rem;
+  --volt-light-space-16: 0.889rem;
+  --volt-light-space-20: 1.111rem;
+  --volt-light-space-24: 1.333rem;
+  --volt-light-space-32: 1.778rem;
+  --volt-light-space-40: 2.222rem;
+  --volt-light-space-48: 2.667rem;
+  --volt-light-space-56: 3.111rem;
+  --volt-light-space-64: 3.556rem;
+  --volt-light-space-72: 4rem;
+  --volt-light-space-80: 4.444rem;
+  --volt-light-space-88: 4.889rem;
+  --volt-light-space-96: 5.333rem;
+  --volt-light-space-104: 5.778rem;
+
+  /* Corner Radius */
+  --volt-light-corner-radius-1: 2.667rem;
+  --volt-light-corner-radius-2: 0.444rem;
+  --volt-light-corner-radius-3: 0.667rem;
+  --volt-light-corner-radius-4: 0.889rem;
+  --volt-light-corner-radius-5: 1.333rem;
+  --volt-light-corner-radius-6: 1.778rem;
+  --volt-light-corner-radius-full: 55.5rem;
+}

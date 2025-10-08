@@ -1,0 +1,33 @@
+/* Volt Dark Theme Text & Borders */
+:root {
+  /* Text Colors */
+  --volt-dark-text-primary: #ffffff;
+  --volt-dark-text-secondary: #aaacb1;
+  --volt-dark-text-link: #aac0f8;
+  --volt-dark-text-input-placeholder: #aaacb1;
+  --volt-dark-text-disabled: #555963;
+  --volt-dark-text-subtle: #aaacb1;
+  --volt-dark-text-success: #3fac64;
+  --volt-dark-text-error: #dd514d;
+  --volt-dark-text-warning: #f3a218;
+  --volt-dark-text-link-hover: #ffeadb;
+  --volt-dark-text-link-grey-default: #2a303c;
+  --volt-dark-text-link-grey-hover: #aaacb1;
+  --volt-dark-text-link-grey-pressed: #d4d6d8;
+  --volt-dark-text-link-grey-disabled: #555963;
+  --volt-dark-text-on-brand-pry: #ffffff;
+  --volt-dark-text-on-brand-secondary: #d4d6d8;
+
+  /* Border Colors */
+  --volt-dark-border-divider: #2a303c;
+  --volt-dark-border-interactive: #80a1f4;
+  --volt-dark-border-strong: #555963;
+  --volt-dark-border-focus: #80a1f4;
+  --volt-dark-border-subtle: #2a303c;
+  --volt-dark-border-primary: #5581f1;
+  --volt-dark-border-secondary: #fdab6e;
+  --volt-dark-border-disabled: #d4d6d8;
+  --volt-dark-border-success: #3fac64;
+  --volt-dark-border-error: #dd514d;
+  --volt-dark-border-warning: #f5b546;
+}

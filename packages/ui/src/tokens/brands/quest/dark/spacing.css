@@ -1,0 +1,32 @@
+/* Quest Dark Theme Spacing */
+:root {
+  /* Spacing Scale */
+  --quest-dark-space-4: 0.222rem;
+  --quest-dark-space-6: 0.333rem;
+  --quest-dark-space-8: 0.444rem;
+  --quest-dark-space-10: 0.556rem;
+  --quest-dark-space-12: 0.667rem;
+  --quest-dark-space-14: 0.778rem;
+  --quest-dark-space-16: 0.889rem;
+  --quest-dark-space-20: 1.111rem;
+  --quest-dark-space-24: 1.333rem;
+  --quest-dark-space-32: 1.778rem;
+  --quest-dark-space-40: 2.222rem;
+  --quest-dark-space-48: 2.667rem;
+  --quest-dark-space-56: 3.111rem;
+  --quest-dark-space-64: 3.556rem;
+  --quest-dark-space-72: 4rem;
+  --quest-dark-space-80: 4.444rem;
+  --quest-dark-space-88: 4.889rem;
+  --quest-dark-space-96: 5.333rem;
+  --quest-dark-space-104: 5.778rem;
+
+  /* Corner Radius */
+  --quest-dark-corner-radius-1: 2.667rem;
+  --quest-dark-corner-radius-2: 0.444rem;
+  --quest-dark-corner-radius-3: 0.667rem;
+  --quest-dark-corner-radius-4: 0.889rem;
+  --quest-dark-corner-radius-5: 1.333rem;
+  --quest-dark-corner-radius-6: 1.778rem;
+  --quest-dark-corner-radius-full: 55.5rem;
+}

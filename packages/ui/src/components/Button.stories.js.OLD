@@ -1,0 +1,49 @@
+import { html } from 'lit';
+import '../../../../stories/Button.js';
+
+export default {
+  title: 'Components/Button',
+  tags: ['autodocs'],
+  argTypes: {
+    variant: {
+      control: 'select',
+      options: ['cta', 'primary', 'secondary', 'negative'],
+    },
+    label: {
+      control: 'text',
+    },
+  },
+};
+
+// Template function
+const Template = ({ variant, label }) => html`
+  <sp-button variant="${variant}">${label}</sp-button>
+`;
+
+// Default story
+export const Primary = Template.bind({});
+Primary.args = {
+  variant: 'primary',
+  label: 'Primary Button',
+};
+
+// CTA story
+export const CTA = Template.bind({});
+CTA.args = {
+  variant: 'cta',
+  label: 'Call to Action',
+};
+
+// Secondary story
+export const Secondary = Template.bind({});
+Secondary.args = {
+  variant: 'secondary',
+  label: 'Secondary Button',
+};
+
+// Negative story
+export const Negative = Template.bind({});
+Negative.args = {
+  variant: 'negative',
+  label: 'Negative Button',
+};

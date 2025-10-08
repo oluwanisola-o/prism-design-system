@@ -1,0 +1,33 @@
+/* Volt Light Theme Text & Borders */
+:root {
+  /* Text Colors */
+  --volt-light-text-primary: #080a0c;
+  --volt-light-text-secondary: #555963;
+  --volt-light-text-link: #2b62ed;
+  --volt-light-text-input-placeholder: #aaacb1;
+  --volt-light-text-disabled: #7f838a;
+  --volt-light-text-subtle: #2a303c;
+  --volt-light-text-success: #0f973d;
+  --volt-light-text-error: #d42620;
+  --volt-light-text-warning: #f3a218;
+  --volt-light-text-link-hover: #a45f2c;
+  --volt-light-text-link-grey-default: #555963;
+  --volt-light-text-link-grey-hover: #191d24;
+  --volt-light-text-link-grey-pressed: #080a0c;
+  --volt-light-text-link-grey-disabled: #7f838a;
+  --volt-light-text-on-brand-pry: #ffffff;
+  --volt-light-text-on-brand-secondary: #d4d6d8;
+
+  /* Border Colors */
+  --volt-light-border-divider: #d4d6d8;
+  --volt-light-border-interactive: #11275f;
+  --volt-light-border-strong: #7f838a;
+  --volt-light-border-focus: #224ebe;
+  --volt-light-border-subtle: #d4d6d8;
+  --volt-light-border-primary: #224ebe;
+  --volt-light-border-secondary: #d17b3b;
+  --volt-light-border-disabled: #d4d6d8;
+  --volt-light-border-success: #0f973d;
+  --volt-light-border-error: #d42620;
+  --volt-light-border-warning: #f3a218;
+}

@@ -1,0 +1,43 @@
+/* Volt Light Theme Colors */
+:root {
+  /* Greys */
+  --volt-light-greys-overlay: #7f838a;
+  --volt-light-greys-text-primary: #2a303c;
+  --volt-light-greys-text-secondary: #4e535d;
+  --volt-light-greys-text-on-brand-light: #ffffff;
+  --volt-light-greys-text-placeholder: #4e535d;
+  --volt-light-greys-border-strong: #95989e;
+  --volt-light-greys-border-subtle: #d4d6d8;
+  --volt-light-greys-surface-background-subtle: #f0f1f3;
+  --volt-light-greys-text-on-brand-dark: #2a303c;
+  --volt-light-greys-text-disabled-icon-disabled: #71757d;
+  --volt-light-greys-surface-background-default: #ffffff;
+  --volt-light-greys-base: #ffffff;
+
+  /* Surface */
+  --volt-light-surface-background-default: #ffffff;
+  --volt-light-surface-modal: #d4d6d8;
+  --volt-light-surface-primary-hover: #2b62ed;
+  --volt-light-surface-primary-pressed: #d5e0fb;
+  --volt-light-surface-secondary-hover: #fff4ed;
+  --volt-light-surface-secondary-pressed: #ffeadb;
+  --volt-light-surface-background-subtle: #f0f1f3;
+  --volt-light-surface-accent-default: #ffeadb;
+  --volt-light-surface-input-default: #2a303c;
+  --volt-light-surface-input-disabled: #2a303c;
+  --volt-light-surface-input-hover: #d4d6d8;
+
+  /* Icons */
+  --volt-light-icons-icon-nav-active: #fd964a;
+  --volt-light-icons-icon-nav-inactive: #7f838a;
+  --volt-light-icons-icon-spot: #0d0e12;
+  --volt-light-icons-handle: #d4d6d8;
+  --volt-light-icons-icon-primary: #2b62ed;
+  --volt-light-icons-icon-secondary: #d17b3b;
+  --volt-light-icons-icon-subtle: #d17b3b;
+  --volt-light-icons-icon-on-brand: #ffffff;
+  --volt-light-icons-icon-success: #0f973d;
+  --volt-light-icons-icon-error: #d42620;
+  --volt-light-icons-icon-warning: #f3a218;
+  --volt-light-icons-icon-grey: #2a303c;
+}

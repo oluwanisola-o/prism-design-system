@@ -1,0 +1,43 @@
+/* Quest Light Theme Colors */
+:root {
+  /* Greys */
+  --quest-light-greys-overlay: #2a303c;
+  --quest-light-greys-text-primary: #f0f1f3;
+  --quest-light-greys-text-secondary: #b8babe;
+  --quest-light-greys-text-on-brand-light: #ffffff;
+  --quest-light-greys-text-placeholder: #71757d;
+  --quest-light-greys-border-strong: #4e535d;
+  --quest-light-greys-border-subtle: #2a303c;
+  --quest-light-greys-surface-background-subtle: #232832;
+  --quest-light-greys-text-on-brand-dark: #2a303c;
+  --quest-light-greys-text-disabled-icon-disabled: #4e535d;
+  --quest-light-greys-surface-background-default: #ffffff;
+  --quest-light-greys-base: #ffffff;
+
+  /* Surface */
+  --quest-light-surface-background-default: #ffffff;
+  --quest-light-surface-modal: #d4d6d8;
+  --quest-light-surface-primary-hover: #efedfd;
+  --quest-light-surface-primary-pressed: #dedbfc;
+  --quest-light-surface-secondary-hover: #fef8ec;
+  --quest-light-surface-secondary-pressed: #fdf1d9;
+  --quest-light-surface-background-subtle: #f5f5f5;
+  --quest-light-surface-accent-default: #fdf1d9;
+  --quest-light-surface-input-default: #2a303c;
+  --quest-light-surface-input-disabled: #2a303c;
+  --quest-light-surface-input-hover: #d4d6d8;
+
+  /* Icons */
+  --quest-light-icons-icon-nav-active: #f7b943;
+  --quest-light-icons-icon-nav-inactive: #7f838a;
+  --quest-light-icons-icon-spot: #0d0e12;
+  --quest-light-icons-handle: #2a303c;
+  --quest-light-icons-icon-primary: #493bc2;
+  --quest-light-icons-icon-secondary: #c99636;
+  --quest-light-icons-icon-subtle: #c99636;
+  --quest-light-icons-icon-on-brand: #ffffff;
+  --quest-light-icons-icon-success: #0f973d;
+  --quest-light-icons-icon-error: #d42620;
+  --quest-light-icons-icon-warning: #f3a218;
+  --quest-light-icons-icon-grey: #2a303c;
+}

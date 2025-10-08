@@ -1,0 +1,32 @@
+/* Quest Light Theme Spacing */
+:root {
+  /* Spacing Scale */
+  --quest-light-space-4: 2.667rem;
+  --quest-light-space-6: 0.333rem;
+  --quest-light-space-8: 0.444rem;
+  --quest-light-space-10: 0.556rem;
+  --quest-light-space-12: 0.667rem;
+  --quest-light-space-14: 0.778rem;
+  --quest-light-space-16: 0.889rem;
+  --quest-light-space-20: 1.111rem;
+  --quest-light-space-24: 1.333rem;
+  --quest-light-space-32: 1.778rem;
+  --quest-light-space-40: 2.222rem;
+  --quest-light-space-48: 2.667rem;
+  --quest-light-space-56: 3.111rem;
+  --quest-light-space-64: 3.556rem;
+  --quest-light-space-72: 4rem;
+  --quest-light-space-80: 4.444rem;
+  --quest-light-space-88: 4.889rem;
+  --quest-light-space-96: 5.333rem;
+  --quest-light-space-104: 5.778rem;
+
+  /* Corner Radius */
+  --quest-light-corner-radius-1: 2.667rem;
+  --quest-light-corner-radius-2: 0.444rem;
+  --quest-light-corner-radius-3: 0.667rem;
+  --quest-light-corner-radius-4: 0.889rem;
+  --quest-light-corner-radius-5: 1.333rem;
+  --quest-light-corner-radius-6: 1.778rem;
+  --quest-light-corner-radius-full: 55.5rem;
+}

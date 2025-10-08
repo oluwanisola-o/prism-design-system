@@ -1,0 +1,308 @@
+/* ===================================
+   PRISM ACCORDION COMPONENT STYLES
+   =================================== */
+
+/* Import the main design tokens */
+@import '../../tokens/csstokens.css';
+
+/* Base Accordion Styles */
+prism-accordion {
+  display: block;
+}
+
+prism-accordion sp-accordion {
+  display: block;
+}
+
+prism-accordion-item {
+  display: block;
+}
+
+prism-accordion-item sp-accordion-item {
+  display: block;
+}
+
+/* ===================================
+   QUEST BRAND STYLES
+   =================================== */
+
+/* Quest Light Theme - ALL accordions get these properties */
+.theme-quest-light prism-accordion sp-accordion {
+  font-family: var(--quest-light-font-body);
+  border-radius: var(--quest-light-corner-radius-3);
+  border: 1px solid var(--quest-light-border-subtle);
+  background-color: var(--quest-light-surface-background-default);
+  margin: var(--quest-light-space-16) 0;
+}
+
+.theme-quest-light prism-accordion-item sp-accordion-item {
+  border-bottom: 1px solid var(--quest-light-border-subtle);
+}
+
+.theme-quest-light prism-accordion-item sp-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.theme-quest-light prism-accordion-item sp-accordion-item[open] {
+  background-color: var(--quest-light-surface-background-subtle);
+}
+
+/* Quest Light - Header styling */
+.theme-quest-light prism-accordion-item sp-accordion-item::part(header) {
+  color: var(--quest-light-text-primary);
+  font-family: var(--quest-light-font-body);
+  font-weight: var(--quest-light-font-weight-semibold);
+  font-size: var(--quest-light-font-size-body-heading);
+  padding: var(--quest-light-space-16) var(--quest-light-space-20);
+  background-color: transparent;
+  border: none;
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--quest-light-space-12) !important;
+  justify-content: flex-start !important;
+}
+
+/* Quest Light - Target the icon container specifically */
+.theme-quest-light prism-accordion-item sp-accordion-item::part(header) .iconContainer {
+  margin-right: var(--quest-light-space-12) !important;
+  position: relative !important;
+}
+
+.theme-quest-light prism-accordion-item sp-accordion-item[open]::part(header) {
+  color: var(--quest-light-text-primary);
+  background-color: var(--quest-light-surface-background-subtle);
+}
+
+/* Quest Light - Content styling */
+.theme-quest-light prism-accordion-item sp-accordion-item::part(content) {
+  color: var(--quest-light-text-secondary);
+  font-family: var(--quest-light-font-body);
+  font-size: var(--quest-light-font-size-body-medium);
+  line-height: var(--quest-light-line-height-body-medium);
+  padding: var(--quest-light-space-12) var(--quest-light-space-20) var(--quest-light-space-20);
+  padding-left: calc(var(--quest-light-space-20) + var(--quest-light-space-12) + 16px); /* Align with text, not icon */
+  background-color: var(--quest-light-surface-background-default);
+}
+
+/* Quest Dark Theme - ALL accordions get these properties */
+.theme-quest-dark prism-accordion sp-accordion {
+  font-family: var(--quest-dark-font-body);
+  border-radius: var(--quest-dark-corner-radius-3);
+  border: 1px solid var(--quest-dark-border-subtle);
+  padding: var(--quest-dark-space-16) var(--quest-dark-space-20);
+  background-color: var(--quest-dark-surface-background-default);
+  margin: var(--quest-dark-space-16) 0;
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item {
+  border-bottom: 1px solid var(--quest-dark-border-subtle);
+  padding: var(--quest-dark-space-16) var(--quest-dark-space-20);
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item[open] {
+  background-color: var(--quest-dark-surface-background-subtle);
+}
+
+/* Quest Dark - Header styling */
+.theme-quest-dark prism-accordion-item sp-accordion-item::part(header) {
+  color: var(--quest-dark-text-primary);
+  font-family: var(--quest-dark-font-body);
+  font-weight: var(--quest-dark-font-weight-semibold);
+  font-size: var(--quest-dark-font-size-body-medium);
+  background-color: transparent;
+  border: none;
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--quest-dark-space-12) !important;
+  justify-content: flex-start !important;
+}
+
+/* Quest Dark - Target the icon container specifically */
+.theme-quest-dark prism-accordion-item sp-accordion-item::part(header) .iconContainer {
+  margin-right: var(--quest-dark-space-12) !important;
+  position: relative !important;
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item[open]::part(header) {
+  color: var(--quest-dark-text-primary);
+  background-color: var(--quest-dark-surface-background-subtle);
+}
+
+/* Quest Dark - Content styling */
+.theme-quest-dark prism-accordion-item sp-accordion-item::part(content) {
+  color: var(--quest-dark-text-secondary);
+  font-family: var(--quest-dark-font-body);
+  font-size: var(--quest-dark-font-size-body-medium);
+  line-height: var(--quest-dark-line-height-body-medium);
+  padding: var(--quest-dark-space-12) var(--quest-dark-space-20) var(--quest-dark-space-20);
+  padding-left: calc(var(--quest-dark-space-20) + var(--quest-dark-space-12) + 16px); /* Align with text, not icon */
+  background-color: transparent;
+}
+
+/* ===================================
+   VOLT BRAND STYLES
+   =================================== */
+
+/* Volt Light Theme - ALL accordions get these properties */
+.theme-volt-light prism-accordion sp-accordion {
+  font-family: var(--volt-light-font-body);
+  border-radius: var(--volt-light-corner-radius-3);
+  border: 1px solid var(--volt-light-border-subtle);
+  background-color: var(--volt-light-surface-background-default);
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item {
+  border-bottom: 1px solid var(--volt-light-border-subtle);
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item[open] {
+  background-color: var(--volt-light-surface-background-subtle);
+}
+
+/* Volt Light - Header styling */
+.theme-volt-light prism-accordion-item sp-accordion-item::part(header) {
+  color: var(--volt-light-text-primary);
+  font-family: var(--volt-light-font-body);
+  font-weight: var(--volt-light-font-weight-semibold);
+  font-size: var(--volt-light-font-size-body-medium);
+  padding: var(--volt-light-space-16) var(--volt-light-space-20);
+  background-color: transparent;
+  border: none;
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--volt-light-space-12) !important;
+  justify-content: flex-start !important;
+}
+
+/* Volt Light - Target the icon container specifically */
+.theme-volt-light prism-accordion-item sp-accordion-item::part(header) .iconContainer {
+  margin-right: var(--volt-light-space-12) !important;
+  position: relative !important;
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item[open]::part(header) {
+  color: var(--volt-light-text-primary);
+  background-color: var(--volt-light-surface-background-subtle);
+}
+
+/* Volt Light - Content styling */
+.theme-volt-light prism-accordion-item sp-accordion-item::part(content) {
+  color: var(--volt-light-text-secondary);
+  font-family: var(--volt-light-font-body);
+  font-size: var(--volt-light-font-size-body-medium);
+  line-height: var(--volt-light-line-height-body-medium);
+  padding: var(--volt-light-space-12) var(--volt-light-space-20) var(--volt-light-space-20);
+  padding-left: calc(var(--volt-light-space-20) + var(--volt-light-space-12) + 16px); /* Align with text, not icon */
+  background-color: transparent;
+}
+
+/* Volt Dark Theme - ALL accordions get these properties */
+.theme-volt-dark prism-accordion sp-accordion {
+  font-family: var(--volt-dark-font-body);
+  border-radius: var(--volt-dark-corner-radius-3);
+  border: 1px solid var(--volt-dark-border-subtle);
+  background-color: var(--volt-dark-surface-background-default);
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item {
+  border-bottom: 1px solid var(--volt-dark-border-subtle);
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item[open] {
+  background-color: var(--volt-dark-surface-background-subtle);
+}
+
+/* Volt Dark - Header styling */
+.theme-volt-dark prism-accordion-item sp-accordion-item::part(header) {
+  color: var(--volt-dark-text-primary);
+  font-family: var(--volt-dark-font-body);
+  font-weight: var(--volt-dark-font-weight-semibold);
+  font-size: var(--volt-dark-font-size-body-medium);
+  padding: var(--volt-dark-space-16) var(--volt-dark-space-20);
+  background-color: transparent;
+  border: none;
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--volt-dark-space-12) !important;
+  justify-content: flex-start !important;
+}
+
+/* Volt Dark - Target the icon container specifically */
+.theme-volt-dark prism-accordion-item sp-accordion-item::part(header) .iconContainer {
+  margin-right: var(--volt-dark-space-12) !important;
+  position: relative !important;
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item[open]::part(header) {
+  color: var(--volt-dark-text-primary);
+  background-color: var(--volt-dark-surface-background-subtle);
+}
+
+/* Volt Dark - Content styling */
+.theme-volt-dark prism-accordion-item sp-accordion-item::part(content) {
+  color: var(--volt-dark-text-secondary);
+  font-family: var(--volt-dark-font-body);
+  font-size: var(--volt-dark-font-size-body-medium);
+  line-height: var(--volt-dark-line-height-body-medium);
+  padding: var(--volt-dark-space-12) var(--volt-dark-space-20) var(--volt-dark-space-20);
+  padding-left: calc(var(--volt-dark-space-20) + var(--volt-dark-space-12) + 16px); /* Align with text, not icon */
+  background-color: transparent;
+}
+
+/* ===================================
+   INTERACTIVE STATES (GLOBAL)
+   =================================== */
+
+/* Hover effects */
+prism-accordion-item sp-accordion-item::part(header):hover {
+  background-color: var(--quest-light-surface-background-subtle);
+  cursor: pointer;
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item::part(header):hover {
+  background-color: var(--quest-dark-surface-background-subtle);
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item::part(header):hover {
+  background-color: var(--volt-light-surface-background-subtle);
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item::part(header):hover {
+  background-color: var(--volt-dark-surface-background-subtle);
+}
+
+/* Focus states */
+prism-accordion-item sp-accordion-item::part(header):focus {
+  outline: 2px solid var(--quest-light-border-focus);
+  outline-offset: -2px;
+}
+
+.theme-quest-dark prism-accordion-item sp-accordion-item::part(header):focus {
+  outline-color: var(--quest-dark-border-focus);
+}
+
+.theme-volt-light prism-accordion-item sp-accordion-item::part(header):focus {
+  outline-color: var(--volt-light-border-focus);
+}
+
+.theme-volt-dark prism-accordion-item sp-accordion-item::part(header):focus {
+  outline-color: var(--volt-dark-border-focus);
+}
+
+/* Transition effects */
+prism-accordion-item sp-accordion-item::part(header),
+prism-accordion-item sp-accordion-item::part(content) {
+  transition: all 0.2s ease;
+}

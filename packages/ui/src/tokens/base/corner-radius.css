@@ -1,0 +1,15 @@
+/* Base Corner Radius */
+:root {
+  /* Corner Radius */
+  --corner-radius-xxxlarge: 55.5rem;
+  --corner-radius-medium: 0.667rem;
+  --corner-radius-large: 0.889rem;
+  --corner-radius-small: 0.444rem;
+  --corner-radius-xlarge: 1.111rem;
+  --corner-radius-xxlarge: 1.333rem;
+  --corner-radius-xsmall: 0.222rem;
+  --corner-radius-xxlarge-2: 1.778rem;
+  --corner-radius-xxlarge-3: 2.222rem;
+  --corner-radius-xxlarge-4: 2.667rem;
+  --corner-radius-xxlarge-5: 3.111rem;
+}

@@ -1,0 +1,43 @@
+/* Quest Dark Theme Colors */
+:root {
+  /* Greys */
+  --quest-dark-greys-overlay: #0d0e12;
+  --quest-dark-greys-text-primary: #f0f1f3;
+  --quest-dark-greys-text-secondary: #b8babe;
+  --quest-dark-greys-text-on-brand-light: #ffffff;
+  --quest-dark-greys-text-placeholder: #71757d;
+  --quest-dark-greys-border-strong: #4e535d;
+  --quest-dark-greys-border-subtle: #2a303c;
+  --quest-dark-greys-surface-background-subtle: #232832;
+  --quest-dark-greys-text-on-brand-dark: #2a303c;
+  --quest-dark-greys-text-disabled-icon-disabled: #4e535d;
+  --quest-dark-greys-surface-background-default: #000000;
+  --quest-dark-greys-base: #000000;
+
+  /* Surface */
+  --quest-dark-surface-background-default: #0d0e12;
+  --quest-dark-surface-modal: #111318;
+  --quest-dark-surface-primary-hover: #f7b943;
+  --quest-dark-surface-primary-pressed: #382c95;
+  --quest-dark-surface-secondary-hover: #110c01;
+  --quest-dark-surface-secondary-pressed: #3f2f0e;
+  --quest-dark-surface-background-subtle: #222630;
+  --quest-dark-surface-accent-default: #4b280f;
+  --quest-dark-surface-input-default: #191d24;
+  --quest-dark-surface-input-disabled: #2a303c;
+  --quest-dark-surface-input-hover: #111318;
+
+  /* Icons */
+  --quest-dark-icons-icon-nav-active: #f7b943;
+  --quest-dark-icons-icon-nav-inactive: #7f838a;
+  --quest-dark-icons-icon-spot: #ffffff;
+  --quest-dark-icons-handle: #2a303c;
+  --quest-dark-icons-icon-primary: #7c6df2;
+  --quest-dark-icons-icon-secondary: #c99636;
+  --quest-dark-icons-icon-subtle: #c99636;
+  --quest-dark-icons-icon-on-brand: #ffffff;
+  --quest-dark-icons-icon-success: #3fac64;
+  --quest-dark-icons-icon-error: #dd514d;
+  --quest-dark-icons-icon-warning: #f5b546;
+  --quest-dark-icons-icon-grey: #2a303c;
+}

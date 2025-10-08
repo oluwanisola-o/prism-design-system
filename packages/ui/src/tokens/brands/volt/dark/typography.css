@@ -1,0 +1,61 @@
+/* Volt Dark Theme Typography */
+:root {
+  /* Font Families */
+  --volt-dark-font-body: "Geist";
+  --volt-dark-font-heading: "Bricolage Grotesque";
+  --volt-dark-font-display: "Bricolage Grotesque";
+
+  /* Font Sizes */
+  --volt-dark-font-size-heading-2: 1.556rem;
+  --volt-dark-font-size-heading-1: 2rem;
+  --volt-dark-font-size-display-small: 2.667rem;
+  --volt-dark-font-size-display-large: 3.111rem;
+  --volt-dark-font-size-heading-3: 1.333rem;
+  --volt-dark-font-size-caption-small: 0.556rem;
+  --volt-dark-font-size-caption-medium: 0.667rem;
+  --volt-dark-font-size-body-small: 0.778rem;
+  --volt-dark-font-size-body-medium: 0.889rem;
+  --volt-dark-font-size-heading-4: 1.111rem;
+
+  /* Line Heights */
+  --volt-dark-line-height-display-large: 3.556rem;
+  --volt-dark-line-height-caption-small: 0.778rem;
+  --volt-dark-line-height-caption-medium: 0.889rem;
+  --volt-dark-line-height-body-medium: 1.333rem;
+  --volt-dark-line-height-heading-8: 1.667rem;
+  --volt-dark-line-height-heading-6: 2rem;
+  --volt-dark-line-height-display-small: 3.111rem;
+  --volt-dark-line-height-heading-7: 1.778rem;
+  --volt-dark-line-height-body-small: 1.111rem;
+  --volt-dark-line-height-heading-5: 2.333rem;
+
+  /* Font Weights */
+  --volt-dark-font-weight-semibold: 600;
+  --volt-dark-font-weight-light: 300;
+  --volt-dark-font-weight-bold: 700;
+  --volt-dark-font-weight-medium: 500;
+  --volt-dark-font-weight-regular: 400;
+
+  /* Display Font Sizes */
+  --volt-dark-display-large: 3.111rem;
+  --volt-dark-display-small: 2.667rem;
+
+  /* Heading Font Sizes */
+  --volt-dark-heading-1: 2rem;
+  --volt-dark-heading-2: 1.556rem;
+  --volt-dark-heading-3: 1.333rem;
+  --volt-dark-heading-4: 1.111rem;
+
+  /* Paragraph Font Sizes */
+  --volt-dark-paragraph-medium: 0.889rem;
+  --volt-dark-paragraph-large: 1rem;
+  --volt-dark-paragraph-small: 0.778rem;
+  --volt-dark-paragraph-xsmall: 0.667rem;
+
+  /* Label/UI Font Sizes */
+  --volt-dark-label-small: 0.778rem;
+  --volt-dark-label-xsmall: 0.667rem;
+  --volt-dark-label-caption: 0.556rem;
+  --volt-dark-label-large: 1rem;
+  --volt-dark-label-medium: 0.889rem;
+}

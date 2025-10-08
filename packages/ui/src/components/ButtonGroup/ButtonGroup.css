@@ -1,0 +1,359 @@
+/* ===================================
+   PRISM BUTTON GROUP COMPONENT STYLES
+   =================================== */
+
+/* Import the main design tokens */
+@import '../../tokens/csstokens.css';
+
+/* Base Button Group Styles */
+prism-button-group {
+  display: inline-flex;
+}
+
+prism-button-group sp-button-group {
+  display: flex;
+  gap: 0;
+  border-radius: var(--quest-light-corner-radius-medium);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual button styling within the group */
+prism-button-group sp-button-group sp-button {
+  border-radius: 0;
+  border-right: 1px solid transparent;
+  position: relative;
+}
+
+/* Remove right border from last button */
+prism-button-group sp-button-group sp-button:last-child {
+  border-right: none;
+}
+
+/* Hover effects for button group */
+prism-button-group sp-button-group sp-button:hover {
+  z-index: 1;
+  transform: none;
+}
+
+/* Focus states */
+prism-button-group sp-button-group sp-button:focus {
+  z-index: 2;
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+/* ===================================
+   QUEST BRAND STYLES
+   =================================== */
+
+/* Quest Light Theme */
+.theme-quest-light prism-button-group sp-button-group {
+  background-color: var(--quest-light-bg-primary);
+  border: 1px solid var(--quest-light-border-subtle);
+}
+
+.theme-quest-light prism-button-group sp-button-group sp-button {
+  font-family: var(--quest-light-font-body);
+  color: var(--quest-light-text-primary);
+  background-color: transparent;
+  border: none;
+  font-weight: var(--quest-light-font-weight-medium);
+}
+
+.theme-quest-light prism-button-group sp-button-group sp-button:hover {
+  background-color: var(--quest-light-bg-hover);
+  color: var(--quest-light-text-primary);
+}
+
+.theme-quest-light prism-button-group sp-button-group sp-button:active,
+.theme-quest-light prism-button-group sp-button-group sp-button[selected] {
+  background-color: var(--quest-light-bg-active);
+  color: var(--quest-light-text-primary);
+  font-weight: var(--quest-light-font-weight-semibold);
+}
+
+/* Quest Dark Theme */
+.theme-quest-dark prism-button-group sp-button-group {
+  background-color: var(--quest-dark-bg-primary);
+  border: 1px solid var(--quest-dark-border-subtle);
+}
+
+.theme-quest-dark prism-button-group sp-button-group sp-button {
+  font-family: var(--quest-dark-font-body);
+  color: var(--quest-dark-text-primary);
+  background-color: transparent;
+  border: none;
+  font-weight: var(--quest-dark-font-weight-medium);
+}
+
+.theme-quest-dark prism-button-group sp-button-group sp-button:hover {
+  background-color: var(--quest-dark-bg-hover);
+  color: var(--quest-dark-text-primary);
+}
+
+.theme-quest-dark prism-button-group sp-button-group sp-button:active,
+.theme-quest-dark prism-button-group sp-button-group sp-button[selected] {
+  background-color: var(--quest-dark-bg-active);
+  color: var(--quest-dark-text-primary);
+  font-weight: var(--quest-dark-font-weight-semibold);
+}
+
+/* ===================================
+   VOLT BRAND STYLES
+   =================================== */
+
+/* Volt Light Theme */
+.theme-volt-light prism-button-group sp-button-group {
+  background-color: var(--volt-light-bg-primary);
+  border: 1px solid var(--volt-light-border-subtle);
+}
+
+.theme-volt-light prism-button-group sp-button-group sp-button {
+  font-family: var(--volt-light-font-body);
+  color: var(--volt-light-text-primary);
+  background-color: transparent;
+  border: none;
+  font-weight: var(--volt-light-font-weight-bold);
+}
+
+.theme-volt-light prism-button-group sp-button-group sp-button:hover {
+  background-color: var(--volt-light-bg-hover);
+  color: var(--volt-light-text-primary);
+}
+
+.theme-volt-light prism-button-group sp-button-group sp-button:active,
+.theme-volt-light prism-button-group sp-button-group sp-button[selected] {
+  background-color: var(--volt-light-bg-active);
+  color: var(--volt-light-text-primary);
+  font-weight: var(--volt-light-font-weight-bold);
+}
+
+/* Volt Dark Theme */
+.theme-volt-dark prism-button-group sp-button-group {
+  background-color: var(--volt-dark-bg-primary);
+  border: 1px solid var(--volt-dark-border-subtle);
+}
+
+.theme-volt-dark prism-button-group sp-button-group sp-button {
+  font-family: var(--volt-dark-font-body);
+  color: var(--volt-dark-text-primary);
+  background-color: transparent;
+  border: none;
+  font-weight: var(--volt-dark-font-weight-semibold);
+}
+
+.theme-volt-dark prism-button-group sp-button-group sp-button:hover {
+  background-color: var(--volt-dark-bg-hover);
+  color: var(--volt-dark-text-primary);
+}
+
+.theme-volt-dark prism-button-group sp-button-group sp-button:active,
+.theme-volt-dark prism-button-group sp-button-group sp-button[selected] {
+  background-color: var(--volt-dark-bg-active);
+  color: var(--volt-dark-text-primary);
+  font-weight: var(--volt-dark-font-weight-semibold);
+}
+
+/* ===================================
+   BUTTON GROUP VARIANTS
+   =================================== */
+
+/* Segmented control style */
+prism-button-group[variant="segmented"] sp-button-group {
+  border-radius: var(--quest-light-corner-radius-full);
+  padding: 2px;
+  background-color: var(--quest-light-bg-secondary);
+}
+
+.theme-quest-light prism-button-group[variant="segmented"] sp-button-group sp-button {
+  border-radius: var(--quest-light-corner-radius-medium);
+  margin: 0 1px;
+}
+
+.theme-quest-light prism-button-group[variant="segmented"] sp-button-group sp-button[selected] {
+  background-color: var(--quest-light-bg-primary);
+  color: var(--quest-light-text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.theme-quest-dark prism-button-group[variant="segmented"] sp-button-group {
+  background-color: var(--quest-dark-bg-secondary);
+}
+
+.theme-quest-dark prism-button-group[variant="segmented"] sp-button-group sp-button {
+  border-radius: var(--quest-dark-corner-radius-medium);
+  margin: 0 1px;
+}
+
+.theme-quest-dark prism-button-group[variant="segmented"] sp-button-group sp-button[selected] {
+  background-color: var(--quest-dark-bg-primary);
+  color: var(--quest-dark-text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.theme-volt-light prism-button-group[variant="segmented"] sp-button-group {
+  background-color: var(--volt-light-bg-secondary);
+}
+
+.theme-volt-light prism-button-group[variant="segmented"] sp-button-group sp-button {
+  border-radius: var(--volt-light-corner-radius-medium);
+  margin: 0 1px;
+}
+
+.theme-volt-light prism-button-group[variant="segmented"] sp-button-group sp-button[selected] {
+  background-color: var(--volt-light-bg-primary);
+  color: var(--volt-light-text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.theme-volt-dark prism-button-group[variant="segmented"] sp-button-group {
+  background-color: var(--volt-dark-bg-secondary);
+}
+
+.theme-volt-dark prism-button-group[variant="segmented"] sp-button-group sp-button {
+  border-radius: var(--volt-dark-corner-radius-medium);
+  margin: 0 1px;
+}
+
+.theme-volt-dark prism-button-group[variant="segmented"] sp-button-group sp-button[selected] {
+  background-color: var(--volt-dark-bg-primary);
+  color: var(--volt-dark-text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Toggle group style */
+prism-button-group[variant="toggle"] sp-button-group {
+  border-radius: var(--quest-light-corner-radius-medium);
+  background-color: transparent;
+  border: 1px solid var(--quest-light-border-subtle);
+}
+
+.theme-quest-light prism-button-group[variant="toggle"] sp-button-group sp-button {
+  border-radius: 0;
+  border-right: 1px solid var(--quest-light-border-subtle);
+}
+
+.theme-quest-light prism-button-group[variant="toggle"] sp-button-group sp-button:last-child {
+  border-right: none;
+}
+
+.theme-quest-light prism-button-group[variant="toggle"] sp-button-group sp-button[selected] {
+  background-color: var(--quest-light-btn-primary-bg);
+  color: var(--quest-light-btn-primary-text);
+  font-weight: var(--quest-light-font-weight-semibold);
+}
+
+.theme-quest-dark prism-button-group[variant="toggle"] sp-button-group {
+  border: 1px solid var(--quest-dark-border-subtle);
+}
+
+.theme-quest-dark prism-button-group[variant="toggle"] sp-button-group sp-button {
+  border-right: 1px solid var(--quest-dark-border-subtle);
+}
+
+.theme-quest-dark prism-button-group[variant="toggle"] sp-button-group sp-button:last-child {
+  border-right: none;
+}
+
+.theme-quest-dark prism-button-group[variant="toggle"] sp-button-group sp-button[selected] {
+  background-color: var(--quest-dark-btn-primary-bg);
+  color: var(--quest-dark-btn-primary-text);
+  font-weight: var(--quest-dark-font-weight-semibold);
+}
+
+.theme-volt-light prism-button-group[variant="toggle"] sp-button-group {
+  border: 1px solid var(--volt-light-border-subtle);
+}
+
+.theme-volt-light prism-button-group[variant="toggle"] sp-button-group sp-button {
+  border-right: 1px solid var(--volt-light-border-subtle);
+}
+
+.theme-volt-light prism-button-group[variant="toggle"] sp-button-group sp-button:last-child {
+  border-right: none;
+}
+
+.theme-volt-light prism-button-group[variant="toggle"] sp-button-group sp-button[selected] {
+  background-color: var(--volt-light-btn-primary-bg);
+  color: var(--volt-light-btn-primary-text);
+  font-weight: var(--volt-light-font-weight-bold);
+}
+
+.theme-volt-dark prism-button-group[variant="toggle"] sp-button-group {
+  border: 1px solid var(--volt-dark-border-subtle);
+}
+
+.theme-volt-dark prism-button-group[variant="toggle"] sp-button-group sp-button {
+  border-right: 1px solid var(--volt-dark-border-subtle);
+}
+
+.theme-volt-dark prism-button-group[variant="toggle"] sp-button-group sp-button:last-child {
+  border-right: none;
+}
+
+.theme-volt-dark prism-button-group[variant="toggle"] sp-button-group sp-button[selected] {
+  background-color: var(--volt-dark-btn-primary-bg);
+  color: var(--volt-dark-btn-primary-text);
+  font-weight: var(--volt-dark-font-weight-semibold);
+}
+
+/* ===================================
+   SIZE VARIATIONS
+   =================================== */
+
+prism-button-group[size="s"] sp-button-group sp-button {
+  font-size: var(--quest-light-font-size-body-small);
+  padding: var(--quest-light-space-6) var(--quest-light-space-12);
+}
+
+prism-button-group[size="m"] sp-button-group sp-button {
+  font-size: var(--quest-light-font-size-body-medium);
+  padding: var(--quest-light-space-8) var(--quest-light-space-16);
+}
+
+prism-button-group[size="l"] sp-button-group sp-button {
+  font-size: var(--quest-light-font-size-body-large);
+  padding: var(--quest-light-space-10) var(--quest-light-space-20);
+}
+
+/* ===================================
+   ORIENTATION VARIATIONS
+   =================================== */
+
+prism-button-group[orientation="vertical"] sp-button-group {
+  flex-direction: column;
+}
+
+prism-button-group[orientation="vertical"] sp-button-group sp-button {
+  border-right: none;
+  border-bottom: 1px solid transparent;
+}
+
+prism-button-group[orientation="vertical"] sp-button-group sp-button:last-child {
+  border-bottom: none;
+}
+
+/* ===================================
+   DISABLED STATE
+   =================================== */
+
+prism-button-group[disabled] sp-button-group sp-button {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ===================================
+   ANIMATIONS
+   =================================== */
+
+@keyframes buttonGroupPress {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+prism-button-group sp-button-group sp-button:active {
+  animation: buttonGroupPress 0.1s ease;
+}

@@ -1,0 +1,24 @@
+/* Quest Light Theme Buttons */
+:root {
+  /* Button Colors */
+  --quest-light-btn-primary-disabled: #bfc1c4;
+  --quest-light-btn-primary-bg: #493bc2;
+  --quest-light-btn-primary-text: #ffffff;
+  --quest-light-btn-primary-border: #5b49ef;
+  --quest-light-btn-secondary-bg: #f7b943;
+  --quest-light-btn-secondary-text: #c99636;
+  --quest-light-btn-secondary-border: #c99636;
+  --quest-light-btn-disabled-bg: #c9963666;
+  --quest-light-btn-disabled-text: #c9963666;
+  --quest-light-btn-disabled-border: #c9963666;
+
+  /* Action States */
+  --quest-light-action-primary-default: #5b49ef;
+  --quest-light-action-primary-hover: #493bc2;
+  --quest-light-action-primary-active: #382c95;
+  --quest-light-action-secondary-default: #9b7429;
+  --quest-light-action-tertiary-default: #493bc2;
+  --quest-light-action-secondary-hover: #9b7429;
+  --quest-light-action-secondary-active: #9b7429;
+  --quest-light-action-disabled: #5b49ef80;
+}

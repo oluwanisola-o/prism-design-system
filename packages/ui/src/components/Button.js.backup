@@ -1,0 +1,23 @@
+// Import Spectrum's button web component
+import '@spectrum-web-components/button/sp-button.js';
+
+// Import YOUR tokens (adjust theme as needed - starting with base/light)
+import '../tokens/base/light/button.css';
+import '../tokens/base/light/colors.css';
+import '../tokens/base/light/spacing.css';
+
+// Export a function that creates your branded button
+export function createButton({ variant = 'primary', label = 'Button', onClick }) {
+  const button = document.createElement('sp-button');
+  button.setAttribute('variant', variant);
+  button.textContent = label;
+  
+  if (onClick) {
+    button.addEventListener('click', onClick);
+  }
+  
+  return button;
+}
+
+// You can also export the raw component for direct use
+export { default as SpectrumButton } from '@spectrum-web-components/button/sp-button.js';

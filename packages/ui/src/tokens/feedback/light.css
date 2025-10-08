@@ -1,0 +1,26 @@
+/* Feedback Light Theme */
+:root {
+  /* Error Feedback */
+  --feedback-light-error-primary: #d42620;
+  --feedback-light-error-secondary: #f6d4d2;
+  --feedback-light-error-surface: #fbe9e9;
+  --feedback-light-error-border: #e57d79;
+  --feedback-light-error-text: #d42620;
+  --feedback-light-error-text-inverse: #ffffff;
+
+  /* Success Feedback */
+  --feedback-light-success-primary: #0f973d;
+  --feedback-light-success-secondary: #cdead7;
+  --feedback-light-success-surface: #e5f5eb;
+  --feedback-light-success-border: #6ec18a;
+  --feedback-light-success-text: #0f973d;
+  --feedback-light-success-text-inverse: #ffffff;
+
+  /* Warning Feedback */
+  --feedback-light-warning-primary: #c28213;
+  --feedback-light-warning-secondary: #fdecd1;
+  --feedback-light-warning-surface: #fef6e8;
+  --feedback-light-warning-border: #f8c774;
+  --feedback-light-warning-text: #92610e;
+  --feedback-light-warning-text-inverse: #ffffff;
+}

@@ -1,0 +1,61 @@
+/* Quest Dark Theme Typography */
+:root {
+  /* Font Families */
+  --quest-dark-font-body: "Geist";
+  --quest-dark-font-heading: "Bricolage Grotesque";
+  --quest-dark-font-display: "Bricolage Grotesque";
+
+  /* Font Sizes */
+  --quest-dark-font-size-heading-2: 1.556rem;
+  --quest-dark-font-size-heading-1: 2rem;
+  --quest-dark-font-size-display-small: 2.667rem;
+  --quest-dark-font-size-display-large: 3.111rem;
+  --quest-dark-font-size-heading-3: 1.333rem;
+  --quest-dark-font-size-caption-small: 0.556rem;
+  --quest-dark-font-size-caption-medium: 0.667rem;
+  --quest-dark-font-size-body-small: 0.778rem;
+  --quest-dark-font-size-body-medium: 0.889rem;
+  --quest-dark-font-size-heading-4: 1.111rem;
+
+  /* Line Heights */
+  --quest-dark-line-height-display-large: 3.556rem;
+  --quest-dark-line-height-caption-small: 0.778rem;
+  --quest-dark-line-height-caption-medium: 0.889rem;
+  --quest-dark-line-height-body-medium: 1.333rem;
+  --quest-dark-line-height-heading-8: 1.667rem;
+  --quest-dark-line-height-heading-6: 2rem;
+  --quest-dark-line-height-display-small: 3.111rem;
+  --quest-dark-line-height-heading-7: 1.778rem;
+  --quest-dark-line-height-body-small: 1.111rem;
+  --quest-dark-line-height-heading-5: 2.333rem;
+
+  /* Font Weights */
+  --quest-dark-font-weight-semibold: 600;
+  --quest-dark-font-weight-light: 300;
+  --quest-dark-font-weight-bold: 700;
+  --quest-dark-font-weight-medium: 500;
+  --quest-dark-font-weight-regular: 400;
+
+  /* Display Font Sizes */
+  --quest-dark-display-large: 3.111rem;
+  --quest-dark-display-small: 2.667rem;
+
+  /* Heading Font Sizes */
+  --quest-dark-heading-1: 2rem;
+  --quest-dark-heading-2: 1.556rem;
+  --quest-dark-heading-3: 1.333rem;
+  --quest-dark-heading-4: 1.111rem;
+
+  /* Paragraph Font Sizes */
+  --quest-dark-paragraph-medium: 0.889rem;
+  --quest-dark-paragraph-large: 1rem;
+  --quest-dark-paragraph-small: 0.889rem;
+  --quest-dark-paragraph-xsmall: 0.667rem;
+
+  /* Label/UI Font Sizes */
+  --quest-dark-label-small: 0.778rem;
+  --quest-dark-label-xsmall: 0.667rem;
+  --quest-dark-label-caption: 0.556rem;
+  --quest-dark-label-large: 1rem;
+  --quest-dark-label-medium: 0.889rem;
+}

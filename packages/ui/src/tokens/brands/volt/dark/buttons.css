@@ -1,0 +1,24 @@
+/* Volt Dark Theme Buttons */
+:root {
+  /* Button Colors */
+  --volt-dark-btn-primary-disabled: #080a0c;
+  --volt-dark-btn-primary-bg: #224ebe;
+  --volt-dark-btn-primary-text: #ffffff;
+  --volt-dark-btn-primary-border: #2b62ed;
+  --volt-dark-btn-secondary-bg: #fdab6e;
+  --volt-dark-btn-secondary-text: #fdab6e;
+  --volt-dark-btn-secondary-border: #d17b3b;
+  --volt-dark-btn-disabled-bg: #d17b3b66;
+  --volt-dark-btn-disabled-text: #d17b3b66;
+  --volt-dark-btn-disabled-border: #d17b3b66;
+
+  /* Action States */
+  --volt-dark-action-primary-default: #2b62ed;
+  --volt-dark-action-primary-hover: #5581f1;
+  --volt-dark-action-primary-active: #80a1f4;
+  --volt-dark-action-secondary-default: #fdab6e;
+  --volt-dark-action-tertiary-default: #5581f1;
+  --volt-dark-action-secondary-hover: #fd964a;
+  --volt-dark-action-secondary-active: #fec092;
+  --volt-dark-action-disabled: #2b62ed80;
+}
